@@ -1,0 +1,154 @@
+[
+	{
+		"file": "maltiezfirearms:itemtypes/firearms/musket",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "spear",
+		"dependsOn": [ { "modid": "maltiezfirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["maltiezfirearms:firearm-musket-*"],
+		"dependsOn": [ { "modid": "maltiezfirearms" } ]
+	},
+	{
+		"file": "maltiezfirearms:itemtypes/firearms/arquebus",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "spear",
+		"dependsOn": [ { "modid": "maltiezfirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["maltiezfirearms:firearm-arquebus-*"],
+		"dependsOn": [ { "modid": "maltiezfirearms" } ]
+	},
+	{
+		"file": "maltiezfirearms:itemtypes/firearms/blunderbuss",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "spear",
+		"dependsOn": [ { "modid": "maltiezfirearms" } ]
+	},
+	{
+		"file": "maltiezfirearms:itemtypes/firearms/blunderbuss-flintlock",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "spear",
+		"dependsOn": [ { "modid": "maltiezfirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["maltiezfirearms:firearm-blunderbuss-*"],
+		"dependsOn": [ { "modid": "maltiezfirearms" } ]
+	},
+	{
+		"file": "maltiezfirearms:itemtypes/firearms/carbine",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "spear",
+		"dependsOn": [ { "modid": "maltiezfirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["maltiezfirearms:firearm-carbine-*"],
+		"dependsOn": [ { "modid": "maltiezfirearms" } ]
+	},
+	{
+		"file": "maltiezfirearms:itemtypes/firearms/superimposed",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "spear",
+		"dependsOn": [ { "modid": "maltiezfirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["maltiezfirearms:firearm-superimposed-*"],
+		"dependsOn": [ { "modid": "maltiezfirearms" } ]
+	},
+	{
+		"file": "maltiezfirearms:itemtypes/firearms/arquebus-revolver",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "spear",
+		"dependsOn": [ { "modid": "revolverarquebus" } ]
+	},
+	{
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["maltiezfirearms:firearm-arquebusrevolver-steel"],
+		"dependsOn": [ { "modid": "revolverarquebus" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/maltiezfirearms:firearm-musket-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.25, "y": -0.01, "z": 0.61 }, "rotation": { "x": 0, "y": -90, "z": 20 } },
+		"dependsOn": [ { "modid": "maltiezfirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/maltiezfirearms:firearm-carbine-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.25, "y": -0.01, "z": 0.52 }, "rotation": { "x": 0, "y": -90, "z": 20 } },
+		"dependsOn": [ { "modid": "maltiezfirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/maltiezfirearms:firearm-blunderbuss-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.35, "y": -0.01, "z": 0.42 }, "rotation": { "x": 0, "y": -90, "z": 20 } },
+		"dependsOn": [ { "modid": "maltiezfirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/maltiezfirearms:firearm-arquebus-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.35, "y": -0.01, "z": 0.42 }, "rotation": { "x": 0, "y": -90, "z": 20 } },
+		"dependsOn": [ { "modid": "maltiezfirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/maltiezfirearms:firearm-superimposed-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.4, "y": -0.01, "z": 0.42 }, "rotation": { "x": 0, "y": -90, "z": 20 } },
+		"dependsOn": [ { "modid": "maltiezfirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/maltiezfirearms:firearm-arquebusrevolver-steel",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.35, "y": -0.01, "z": 0.48 }, "rotation": { "x": 0, "y": -90, "z": 20 } },
+		"dependsOn": [ { "modid": "revolverarquebus" } ]
+	}
+]

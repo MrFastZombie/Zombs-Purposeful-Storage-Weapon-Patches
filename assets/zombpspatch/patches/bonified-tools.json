@@ -1,0 +1,130 @@
+[
+	{
+		"file": "bonifiedtools:itemtypes/spear-bone",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "spear",
+		"dependsOn": [ { "modid": "bonifiedtools" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/bonifiedtools:spear-bonified-chert",
+		"side": "server",
+		"value": { "origin": { "x": -2, "y": 0, "z": 0.5 }, "scaleXYZ": { "x": 0.85, "y": 0.85, "z": 0.85 } },
+		"dependsOn": [ { "modid": "bonifiedtools" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/bonifiedtools:spear-bonified-granite",
+		"side": "server",
+		"value": { "origin": { "x": -2, "y": 0, "z": 0.5 }, "scaleXYZ": { "x": 0.85, "y": 0.85, "z": 0.85 } },
+		"dependsOn": [ { "modid": "bonifiedtools" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/bonifiedtools:spear-bonified-andesite",
+		"side": "server",
+		"value": { "origin": { "x": -2, "y": 0, "z": 0.5 }, "scaleXYZ": { "x": 0.85, "y": 0.85, "z": 0.85 } },
+		"dependsOn": [ { "modid": "bonifiedtools" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/bonifiedtools:spear-bonified-peridotite",
+		"side": "server",
+		"value": { "origin": { "x": -2, "y": 0, "z": 0.5 }, "scaleXYZ": { "x": 0.85, "y": 0.85, "z": 0.85 } },
+		"dependsOn": [ { "modid": "bonifiedtools" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/bonifiedtools:spear-bonified-basalt",
+		"side": "server",
+		"value": { "origin": { "x": -2, "y": 0, "z": 0.5 }, "scaleXYZ": { "x": 0.85, "y": 0.85, "z": 0.85 } },
+		"dependsOn": [ { "modid": "bonifiedtools" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/bonifiedtools:spear-bonified-flint",
+		"side": "server",
+		"value": { "origin": { "x": -2, "y": 0, "z": 0.5 }, "scaleXYZ": { "x": 0.85, "y": 0.85, "z": 0.85 } },
+		"dependsOn": [ { "modid": "bonifiedtools" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/bonifiedtools:spear-bonified-obsidian",
+		"side": "server",
+		"value": { "origin": { "x": -2, "y": 0, "z": 0.5 }, "scaleXYZ": { "x": 0.85, "y": 0.85, "z": 0.85 } },
+		"dependsOn": [ { "modid": "bonifiedtools" }]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/bonifiedtools:spear-bonified-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "scaleXYZ": { "x": 0.85, "y": 0.85, "z": 0.85 } },
+		"dependsOn": [ { "modid": "bonifiedtools" } ]
+	},
+	{
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["bonifiedtools:spear-bonified-*"],
+		"dependsOn": [ { "modid": "bonifiedtools" } ]
+	},
+	{
+		"file": "purposefulstorage:config/restrictions/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["bonifiedtools:spear-bonified-*"],
+		"dependsOn": [ { "modid": "bonifiedtools" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/bonifiedtools:spear-bonified-copper",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 1.05, "y": -0.03, "z": 0.04 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scale": 0.825 },
+		"dependsOn": [ { "modid": "bonifiedtools" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/bonifiedtools:spear-bonified-tinbronze",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 1.05, "y": -0.03, "z": 0.04 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scale": 0.825 },
+		"dependsOn": [ { "modid": "bonifiedtools" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/bonifiedtools:spear-bonified-bismuthbronze",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 1.05, "y": -0.03, "z": 0.04 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scale": 0.825 },
+		"dependsOn": [ { "modid": "bonifiedtools" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/bonifiedtools:spear-bonified-blackbronze",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 1.05, "y": -0.03, "z": 0.04 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scale": 0.825 },
+		"dependsOn": [ { "modid": "bonifiedtools" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/bonifiedtools:spear-bonified-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.9, "y": -0.03, "z": 0.04 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scale": 0.95 },
+		"dependsOn": [ { "modid": "bonifiedtools" } ]
+	}
+]

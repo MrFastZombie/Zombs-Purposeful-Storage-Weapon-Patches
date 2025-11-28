@@ -1,0 +1,11 @@
+{
+  "type": "content",
+  "modid": "zombpspatch",
+  "name": "Zomb's Purposeful Storage weapons patches",
+  "authors": ["MrFastZombie"],
+  "description": "Patch mod that makes some other mods I like work with purposeful storage.",
+  "version": "1.0.0",
+  "dependencies": {
+    "game" : "1.20.0"
+  }
+}

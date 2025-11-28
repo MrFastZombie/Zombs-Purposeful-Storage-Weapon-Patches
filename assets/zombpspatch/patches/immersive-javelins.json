@@ -1,0 +1,50 @@
+[
+	{
+		"file": "immersivejavelins:itemtypes/crudejavelin",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "javelin",
+		"dependsOn": [ { "modid": "immersivejavelins" } ]
+	},
+	{
+		"file": "immersivejavelins:itemtypes/javelin",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "javelin",
+		"dependsOn": [ { "modid": "immersivejavelins" } ]
+	},
+	{
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["immersivejavelins:crudejavelin-*"],
+		"dependsOn": [ { "modid": "immersivejavelins" } ]
+	},
+	{
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["immersivejavelins:javelin-*"],
+		"dependsOn": [ { "modid": "immersivejavelins" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/immersivejavelins:crudejavelin-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.35, "y": 0, "z": 0 }, "rotation": { "x": 0, "y": 4, "z": 0 } },
+		"dependsOn": [ { "modid": "immersivejavelins" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/immersivejavelins:javelin-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.35, "y": 0, "z": 0 }, "rotation": { "x": 0, "y": 4, "z": 0 } },
+		"dependsOn": [ { "modid": "immersivejavelins" } ]
+	},
+]

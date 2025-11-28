@@ -1,0 +1,66 @@
+[
+	{
+		"file": "purposefulstorage:config/restrictions/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["maltiezfirearms:firearm-musket-*"],
+		"dependsOn": [ { "modid": "maltiezfirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/restrictions/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["maltiezfirearms:firearm-carbine-*"],
+		"dependsOn": [ { "modid": "maltiezfirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/restrictions/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["maltiezfirearms:firearm-arquebusrevolver-*"],
+		"dependsOn": [ { "modid": "revolverarquebus" } ]
+	},
+	{
+		"file": "purposefulstorage:config/restrictions/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["maltiezfirearms:firearm-arquebus-*"],
+		"dependsOn": [ { "modid": "maltiezfirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/maltiezfirearms:firearm-musket-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": 0.57, "y": 0, "z": 0.5 }, "rotation": { "x": 0, "y": -90, "z": -5 } },
+		"dependsOn": [ { "modid": "maltiezfirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/maltiezfirearms:firearm-carbine-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": 0.77, "y": -0.028, "z": 0.51 }, "rotation": { "x": 0, "y": -90, "z": -5 } },
+		"dependsOn": [ { "modid": "maltiezfirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/maltiezfirearms:firearm-arquebus-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": 1, "y": -0.028, "z": 0.51 }, "rotation": { "x": 0, "y": -90, "z": -5 } },
+		"dependsOn": [ { "modid": "maltiezfirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/maltiezfirearms:firearm-arquebusrevolver-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": 0.77, "y": -0.04, "z": 0.51 }, "rotation": { "x": 0, "y": -90, "z": 45 } },
+		"dependsOn": [ { "modid": "revolverarquebus" } ]
+	}
+]
