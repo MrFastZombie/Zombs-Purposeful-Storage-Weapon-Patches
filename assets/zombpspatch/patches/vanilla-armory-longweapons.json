@@ -1,0 +1,66 @@
+[
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["vanillaarmory:blade-claymore-*"],
+		"dependsOn": [ { "modid": "vanillaarmory" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["vanillaarmory:spear-*"],
+		"dependsOn": [ { "modid": "vanillaarmory" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/vanillaarmory:blade-claymore-*",
+		"side": "server",
+		"value": { "translation": { "x": 0, "y": -0.18, "z": 0 }, "scale": 0.65 },
+		"dependsOn": [ { "modid": "vanillaarmory" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/vanillaarmory:spear-ranseur-*",
+		"side": "server",
+		"value": { "translation": { "x": 1.6, "y": -0.04, "z": 0 }, "scale": 0.9 },
+		"dependsOn": [ { "modid": "vanillaarmory" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/vanillaarmory:spear-voulge-*",
+		"side": "server",
+		"value": { "translation": { "x": 1.3, "y": -0.04, "z": 0 }, "scale": 0.9 },
+		"dependsOn": [ { "modid": "vanillaarmory" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/vanillaarmory:spear-fork-*",
+		"side": "server",
+		"value": { "translation": { "x": 1.3, "y": -0.04, "z": 0 }, "scale": 0.9 },
+		"dependsOn": [ { "modid": "vanillaarmory" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/vanillaarmory:spear-boar-*",
+		"side": "server",
+		"value": { "translation": { "x": 1.3, "y": -0.04, "z": 0 }, "scale": 0.9 },
+		"dependsOn": [ { "modid": "vanillaarmory" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/vanillaarmory:spear-generic-*",
+		"side": "server",
+		"value": { "translation": { "x": 1.2, "y": -0.12, "z": 0 }, "scale": 0.825 },
+		"dependsOn": [ { "modid": "vanillaarmory" } ]
+	}
+]

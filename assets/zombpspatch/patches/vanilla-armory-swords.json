@@ -1,0 +1,42 @@
+[
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/swords",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["vanillaarmory:blade-*"],
+		"dependsOn": [ { "modid": "vanillaarmory" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swords",
+		"op": "addmerge", 
+		"path": "/vanillaarmory:blade-arming-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.10, "y": 0.325, "z": 0.5 }, "rotation": { "x": 90, "y": 0, "z": 0 }, "scale": 0.65 },
+		"dependsOn": [ { "modid": "vanillaarmory" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swords",
+		"op": "addmerge", 
+		"path": "/vanillaarmory:blade-gladius-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": 0.17, "y": 0.315, "z": 0.5 }, "rotation": { "x": 90, "y": 0, "z": 0 }, "scale": 0.63 },
+		"dependsOn": [ { "modid": "vanillaarmory" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swords",
+		"op": "addmerge", 
+		"path": "/vanillaarmory:blade-sabre-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.10, "y": 0.325, "z": 0.5 }, "rotation": { "x": 90, "y": 0, "z": 0 }, "scale": 0.65 },
+		"dependsOn": [ { "modid": "vanillaarmory" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swords",
+		"op": "addmerge", 
+		"path": "/vanillaarmory:blade-claymore-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.33, "y": 0.33, "z": 0.5 }, "rotation": { "x": 90, "y": 0, "z": 0 }, "scale": 0.65 },
+		"dependsOn": [ { "modid": "vanillaarmory" } ]
+	}
+]
