@@ -1,0 +1,26 @@
+[
+    {
+		"file": "maltiezfirearms:itemtypes/vanillaarmory/spear/speargenerictype",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "spear",
+		"dependsOn": [ { "modid": "vanillaarmory" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["vanillaarmory:spear-generic-*"],
+		"dependsOn": [ { "modid": "vanillaarmory" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/vanillaarmory:spear-generic-*",
+		"side": "server",
+		"value": { "scale": 0.825 },
+		"dependsOn": [ { "modid": "vanillaarmory" } ]
+	}
+]
