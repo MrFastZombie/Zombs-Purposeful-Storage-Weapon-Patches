@@ -4,7 +4,7 @@
 		"op": "addmerge", 
 		"path": "/attributes/psGroup",
 		"side": "server",
-		"value": "spear",
+		"value": "firearm",
 		"dependsOn": [ { "modid": "maltiezfirearms" } ]
 	},
 	{
@@ -20,7 +20,7 @@
 		"op": "addmerge", 
 		"path": "/attributes/psGroup",
 		"side": "server",
-		"value": "spear",
+		"value": "firearm",
 		"dependsOn": [ { "modid": "maltiezfirearms" } ]
 	},
 	{
@@ -36,7 +36,7 @@
 		"op": "addmerge", 
 		"path": "/attributes/psGroup",
 		"side": "server",
-		"value": "spear",
+		"value": "firearm",
 		"dependsOn": [ { "modid": "maltiezfirearms" } ]
 	},
 	{
@@ -44,7 +44,7 @@
 		"op": "addmerge", 
 		"path": "/attributes/psGroup",
 		"side": "server",
-		"value": "spear",
+		"value": "firearm",
 		"dependsOn": [ { "modid": "maltiezfirearms" } ]
 	},
 	{
@@ -60,7 +60,7 @@
 		"op": "addmerge", 
 		"path": "/attributes/psGroup",
 		"side": "server",
-		"value": "spear",
+		"value": "firearm",
 		"dependsOn": [ { "modid": "maltiezfirearms" } ]
 	},
 	{
@@ -76,7 +76,7 @@
 		"op": "addmerge", 
 		"path": "/attributes/psGroup",
 		"side": "server",
-		"value": "spear",
+		"value": "firearm",
 		"dependsOn": [ { "modid": "maltiezfirearms" } ]
 	},
 	{
@@ -92,7 +92,7 @@
 		"op": "addmerge", 
 		"path": "/attributes/psGroup",
 		"side": "server",
-		"value": "spear",
+		"value": "firearm",
 		"dependsOn": [ { "modid": "revolverarquebus" } ]
 	},
 	{
