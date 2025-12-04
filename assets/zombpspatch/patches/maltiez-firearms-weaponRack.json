@@ -36,7 +36,7 @@
 		"op": "addmerge", 
 		"path": "/maltiezfirearms:firearm-musket-*",
 		"side": "server",
-		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": 0.57, "y": 0, "z": 0.5 }, "rotation": { "x": 0, "y": -90, "z": -5 } },
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": 0.57, "y": 0, "z": 0.5 }, "rotation": { "x": 0, "y": -90, "z": -5 }, "scale": 0.825 },
 		"dependsOn": [ { "modid": "maltiezfirearms" } ]
 	},
 	{
@@ -44,7 +44,7 @@
 		"op": "addmerge", 
 		"path": "/maltiezfirearms:firearm-carbine-*",
 		"side": "server",
-		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": 0.77, "y": -0.028, "z": 0.51 }, "rotation": { "x": 0, "y": -90, "z": -5 } },
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": 0.92, "y": -0.04, "z": 0.51 }, "rotation": { "x": 0, "y": -90, "z": -5 }, "scale": 0.825 },
 		"dependsOn": [ { "modid": "maltiezfirearms" } ]
 	},
 	{
@@ -60,7 +60,7 @@
 		"op": "addmerge", 
 		"path": "/maltiezfirearms:firearm-arquebusrevolver-*",
 		"side": "server",
-		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": 0.77, "y": -0.04, "z": 0.51 }, "rotation": { "x": 0, "y": -90, "z": 45 } },
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": 0.86, "y": -0.04, "z": 0.51 }, "rotation": { "x": 0, "y": -90, "z": 45 }, "scale": 0.9 },
 		"dependsOn": [ { "modid": "revolverarquebus" } ]
 	}
 ]

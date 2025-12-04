@@ -1,0 +1,226 @@
+[
+    {
+		"file": "extrafirearms:itemtypes/firearms/jezail",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "firearm",
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+    {
+		"file": "extrafirearms:itemtypes/firearms/arquebus-flintlock",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "firearm",
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+    {
+		"file": "extrafirearms:itemtypes/firearms/wheellockrifle-steel",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "firearm",
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+    {
+		"file": "extrafirearms:itemtypes/firearms/wheellockrifle-iron",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "firearm",
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+    {
+		"file": "extrafirearms:itemtypes/firearms/wheellockcarbine",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "firearm",
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+    {
+		"file": "extrafirearms:itemtypes/firearms/wheellockcarbine-steel",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "firearm",
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+    {
+		"file": "extrafirearms:itemtypes/firearms/wheellockcarbine-iron",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "firearm",
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+    {
+		"file": "extrafirearms:itemtypes/firearms/volleygun",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "firearm",
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+    {
+		"file": "extrafirearms:itemtypes/firearms/superimposed-steel",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "firearm",
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+    {
+		"file": "extrafirearms:itemtypes/firearms/superimposed-iron",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "firearm",
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+    {
+		"file": "extrafirearms:itemtypes/firearms/hallrifle",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "firearm",
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+    {
+		"file": "extrafirearms:itemtypes/firearms/blunderbussdb",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "firearm",
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["extrafirearms:firearm-arquebusflintlock-*"],
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["extrafirearms:firearm-wheellockrifle-*"],
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["extrafirearms:firearm-wheellockcarbine-*"],
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["extrafirearms:firearm-jezail-*"],
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["extrafirearms:firearm-superimposed-*"],
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["extrafirearms:firearm-hallrifle-*"],
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["extrafirearms:firearm-blunderbussdb-*"],
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["extrafirearms:firearm-volleygun-*"],
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/extrafirearms:firearm-jezail-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.35, "y": -0.01, "z": 0.59 }, "rotation": { "x": 0, "y": -90, "z": 20 }, "scale": 0.825 },
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/extrafirearms:firearm-wheellockrifle-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.45, "y": -0.01, "z": 0.41 }, "rotation": { "x": 0, "y": -90, "z": 20 }, "scale": 0.825 },
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/extrafirearms:firearm-wheellockcarbine-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.45, "y": -0.01, "z": 0.38 }, "rotation": { "x": 0, "y": -90, "z": 20 }, "scale": 0.825 },
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/extrafirearms:firearm-blunderbussdb-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.4, "y": -0.01, "z": 0.43 }, "rotation": { "x": 0, "y": -90, "z": 20 }, "scale": 0.825 },
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/extrafirearms:firearm-arquebusflintlock-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.3, "y": -0.01, "z": 0.42 }, "rotation": { "x": 0, "y": -90, "z": 20 }, "scale": 0.825 },
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/extrafirearms:firearm-superimposed-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.45, "y": -0.01, "z": 0.4 }, "rotation": { "x": 0, "y": -90, "z": 20 }, "scale": 0.825 },
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/extrafirearms:firearm-hallrifle-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.32, "y": -0.01, "z": 0.49 }, "rotation": { "x": 0, "y": -90, "z": 20 }, "scale": 0.825 },
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/extrafirearms:firearm-volleygun-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.42, "y": -0.01, "z": 0.4 }, "rotation": { "x": 0, "y": -90, "z": 20 }, "scale": 0.825 },
+        "dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	}
+]
