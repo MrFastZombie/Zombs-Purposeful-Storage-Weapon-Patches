@@ -1,6 +1,6 @@
 [
     {
-		"file": "maltiezfirearms:itemtypes/vanillaarmory/spear/speargenerictype",
+		"file": "vanillaarmory:itemtypes/tool/spear/speargenerictype",
 		"op": "addmerge", 
 		"path": "/attributes/psGroup",
 		"side": "server",
