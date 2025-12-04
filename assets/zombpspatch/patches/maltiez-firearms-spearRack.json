@@ -108,7 +108,7 @@
 		"op": "addmerge", 
 		"path": "/maltiezfirearms:firearm-musket-*",
 		"side": "server",
-		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.25, "y": -0.01, "z": 0.61 }, "rotation": { "x": 0, "y": -90, "z": 20 } },
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.35, "y": -0.01, "z": 0.52 }, "rotation": { "x": 0, "y": -90, "z": 20 }, "scale": 0.825 },
 		"dependsOn": [ { "modid": "maltiezfirearms" } ]
 	},
 	{
@@ -116,7 +116,7 @@
 		"op": "addmerge", 
 		"path": "/maltiezfirearms:firearm-carbine-*",
 		"side": "server",
-		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.25, "y": -0.01, "z": 0.52 }, "rotation": { "x": 0, "y": -90, "z": 20 } },
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.34, "y": -0.01, "z": 0.45 }, "rotation": { "x": 0, "y": -90, "z": 20 }, "scale": 0.825 },
 		"dependsOn": [ { "modid": "maltiezfirearms" } ]
 	},
 	{
@@ -124,7 +124,7 @@
 		"op": "addmerge", 
 		"path": "/maltiezfirearms:firearm-blunderbuss-*",
 		"side": "server",
-		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.35, "y": -0.01, "z": 0.42 }, "rotation": { "x": 0, "y": -90, "z": 20 } },
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.4, "y": -0.01, "z": 0.37 }, "rotation": { "x": 0, "y": -90, "z": 20 }, "scale": 0.825 },
 		"dependsOn": [ { "modid": "maltiezfirearms" } ]
 	},
 	{
@@ -132,7 +132,7 @@
 		"op": "addmerge", 
 		"path": "/maltiezfirearms:firearm-arquebus-*",
 		"side": "server",
-		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.35, "y": -0.01, "z": 0.42 }, "rotation": { "x": 0, "y": -90, "z": 20 } },
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.39, "y": -0.01, "z": 0.38 }, "rotation": { "x": 0, "y": -90, "z": 20 }, "scale": 0.825 },
 		"dependsOn": [ { "modid": "maltiezfirearms" } ]
 	},
 	{
@@ -140,7 +140,7 @@
 		"op": "addmerge", 
 		"path": "/maltiezfirearms:firearm-superimposed-*",
 		"side": "server",
-		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.4, "y": -0.01, "z": 0.42 }, "rotation": { "x": 0, "y": -90, "z": 20 } },
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.45, "y": -0.01, "z": 0.38 }, "rotation": { "x": 0, "y": -90, "z": 20 }, "scale": 0.825 },
 		"dependsOn": [ { "modid": "maltiezfirearms" } ]
 	},
 	{
@@ -148,7 +148,7 @@
 		"op": "addmerge", 
 		"path": "/maltiezfirearms:firearm-arquebusrevolver-steel",
 		"side": "server",
-		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.35, "y": -0.01, "z": 0.48 }, "rotation": { "x": 0, "y": -90, "z": 20 } },
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.43, "y": -0.01, "z": 0.43 }, "rotation": { "x": 0, "y": -90, "z": 20 }, "scale": 0.825 },
 		"dependsOn": [ { "modid": "revolverarquebus" } ]
 	}
 ]
