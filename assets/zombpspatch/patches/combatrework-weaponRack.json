@@ -1,0 +1,50 @@
+[
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["combatrework:halberd-*"],
+		"dependsOn": [ { "modid": "combatrework" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["combatrework:longspear-*"],
+		"dependsOn": [ { "modid": "combatrework" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["combatrework:longsword-*"],
+		"dependsOn": [ { "modid": "combatrework" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/combatrework:halberd-*",
+		"side": "server",
+		"value": { "translation": { "x": 1, "y": -0.5, "z": 0.44 }, "rotation": { "x": 90, "y": 0, "z": 0 }},
+		"dependsOn": [ { "modid": "combatrework" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/combatrework:longspear-*",
+		"side": "server",
+		"value": { "translation": { "x": 0.75, "y": -0.05, "z": 0 } },
+		"dependsOn": [ { "modid": "combatrework" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/combatrework:longsword-*",
+		"side": "server",
+		"value": { "translation": { "x": 0.8, "y": -0.49, "z": 0.46 }, "rotation": { "x": 90, "y": 0.85, "z": 0 } },
+		"dependsOn": [ { "modid": "combatrework" } ]
+	}
+]

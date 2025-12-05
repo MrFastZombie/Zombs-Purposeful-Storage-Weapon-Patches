@@ -1,0 +1,50 @@
+[
+    {
+		"file": "combatrework:itemtypes/tool/longspear",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "spear",
+		"dependsOn": [ { "modid": "combatrework" } ]
+	},
+    {
+		"file": "combatrework:itemtypes/tool/halberd",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "spear",
+		"dependsOn": [ { "modid": "combatrework" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["combatrework:longspear-*"],
+		"dependsOn": [ { "modid": "combatrework" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["combatrework:halberd-*"],
+		"dependsOn": [ { "modid": "combatrework" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/combatrework:longspear-*",
+		"side": "server",
+		"value": { "translation": { "x": 0.25, "y": -0.1, "z": 0.24 } },
+		"dependsOn": [ { "modid": "combatrework" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/combatrework:halberd-*",
+		"side": "server",
+		"value": { "translation": { "x": 0.25, "y": -0.9, "z": 0.44 }, "rotation": { "x": 145, "y": 0, "z": 0 } },
+		"dependsOn": [ { "modid": "combatrework" } ]
+	}
+]
