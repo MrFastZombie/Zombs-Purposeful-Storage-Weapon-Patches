@@ -1,0 +1,18 @@
+[
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/swords",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["combatrework:longsword-*"],
+		"dependsOn": [ { "modid": "combatrework" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swords",
+		"op": "addmerge", 
+		"path": "/combatrework:longsword-*",
+		"side": "server",
+		"value": { "translation": { "x": 0, "y": -0.5, "z": 0.41 }, "rotation": { "x": 90, "y": 0, "z": 0 }, "scale": 0.9 },
+		"dependsOn": [ { "modid": "combatrework" } ]
+	}
+]

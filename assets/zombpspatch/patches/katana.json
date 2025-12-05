@@ -1,0 +1,34 @@
+[
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/swords",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["katansmod:katana-normal-*"],
+		"dependsOn": [ { "modid": "katansmod" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swords",
+		"op": "addmerge", 
+		"path": "/katansmod:katana-normal-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.10, "y": 0.37, "z": 0.18 }, "rotation": { "x": 90, "y": 0, "z": 0 }, "scale": 0.65 },
+		"dependsOn": [ { "modid": "katansmod" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["katansmod:katana-normal-*"],
+		"dependsOn": [ { "modid": "katansmod" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/katansmod:katana-normal-*",
+		"side": "server",
+		"value": { "translation": { "x": 0.75, "y": -0.47, "z": 0 }, "rotation": { "x": 90, "y": 2, "z": 0 }, "scale": 0.65 },
+		"dependsOn": [ { "modid": "katansmod" } ]
+	}
+]
