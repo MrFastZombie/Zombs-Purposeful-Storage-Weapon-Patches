@@ -15,6 +15,22 @@
 		"value": "spear",
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	},
+	{
+		"file": "walkingstick:itemtypes/tool/walkingsticks/walkingstick-shepherds",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "spear",
+		"dependsOn": [ { "modid": "walkingstick" } ]
+	},
+	{
+		"file": "walkingstick:itemtypes/tool/walkingsticks/walkingstick-blackthorn",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "spear",
+		"dependsOn": [ { "modid": "walkingstick" } ]
+	},
     {
 		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
 		"op": "addmerge", 
@@ -31,6 +47,22 @@
 		"value": ["walkingstick:walkingstick-reinforced"],
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	},
+	{
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["walkingstick:walkingstick-blackthorn"],
+		"dependsOn": [ { "modid": "walkingstick" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["walkingstick:walkingstick-shepherds"],
+		"dependsOn": [ { "modid": "walkingstick" } ]
+	},
     {
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
 		"op": "addmerge", 
@@ -45,6 +77,22 @@
 		"path": "/walkingstick:walkingstick-reinforced",
 		"side": "server",
 		"value": { "origin": { "x": 1.9, "y": 0, "z": 0.5 }, "scaleXYZ": { "x": 0.88, "y": 0.88, "z": 0.88 } },
+		"dependsOn": [ { "modid": "walkingstick" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/walkingstick:walkingstick-blackthorn",
+		"side": "server",
+		"value": { "origin": { "x": 1.8, "y": 0, "z": 0.5 }, "translation": {"x": 0, "y": 0, "z": -0.04}, "scaleXYZ": { "x": 0.88, "y": 0.88, "z": 0.88 }, "rotation": { "x": 145, "y": 0, "z": 0 } },
+		"dependsOn": [ { "modid": "walkingstick" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/walkingstick:walkingstick-shepherds",
+		"side": "server",
+		"value": { "origin": { "x": 1.9, "y": 0.1, "z": 0.5 }, "translation": {"x": 0, "y": -0.15, "z": 0.02}, "scaleXYZ": { "x": 0.88, "y": 0.88, "z": 0.88 }, "rotation": { "x": 155, "y": 0, "z": 0 } },
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	}
 ]
