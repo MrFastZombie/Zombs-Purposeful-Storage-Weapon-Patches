@@ -1,0 +1,58 @@
+[
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "move", 
+		"frompath": "/game:spear-generic-*",
+        "path": "/temp-spear",
+		"side": "server",
+        "dependsOn": [ { "modid": "geoaddons" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/game:spear-generic-diorite",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.955, "y": -0.03, "z": 0.04 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scalexyz": { "x": 0.91, "y": 0.85, "z": 0.85 } },
+		"dependsOn": [ { "modid": "geoaddons" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/game:spear-generic-gabbro",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.955, "y": -0.03, "z": 0.04 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scalexyz": { "x": 0.91, "y": 0.85, "z": 0.85 } },
+		"dependsOn": [ { "modid": "geoaddons" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/game:spear-generic-quartzite",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.955, "y": -0.03, "z": 0.04 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scalexyz": { "x": 0.91, "y": 0.85, "z": 0.85 } },
+		"dependsOn": [ { "modid": "geoaddons" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/game:spear-generic-jade",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.955, "y": -0.03, "z": 0.04 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scalexyz": { "x": 0.91, "y": 0.85, "z": 0.85 } },
+		"dependsOn": [ { "modid": "geoaddons" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/game:spear-generic-jasper",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.955, "y": -0.03, "z": 0.04 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scalexyz": { "x": 0.91, "y": 0.85, "z": 0.85 } },
+		"dependsOn": [ { "modid": "geoaddons" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "move", 
+		"frompath": "/temp-spear",
+        "path": "/game:spear-generic-*",
+		"side": "server",
+        "dependsOn": [ { "modid": "geoaddons" } ]
+	}
+]
