@@ -15,6 +15,14 @@
 		"value": ["vanillaarmory:spear-*"],
 		"dependsOn": [ { "modid": "vanillaarmory" } ]
 	},
+	{
+		"file": "purposefulstorage:config/restrictions/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["vanillaarmory:bow-*"],
+		"dependsOn": [ { "modid": "vanillaarmory" } ]
+	},
     {
 		"file": "purposefulstorage:config/transformations/weapons/longweapons",
 		"op": "addmerge", 
@@ -56,6 +64,22 @@
 		"dependsOn": [ { "modid": "vanillaarmory" } ]
 	},
     {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/vanillaarmory:bow-ranger",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.91, "y": 0.0185, "z": -0.125 }, "scaleXYZ": { "x": 1.1, "y": 1, "z": 1 }, "rotation": { "x": 10, "y": 0, "z": 0 } },
+		"dependsOn": [ { "modid": "vanillaarmory" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/vanillaarmory:bow-yager",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.91, "y": 0.005, "z": 0 }, "scaleXYZ": { "x": 1.1, "y": 1, "z": 1 }, "rotation": { "x": 15, "y": 0, "z": 0 } },
+		"dependsOn": [ { "modid": "vanillaarmory" } ]
+	},
+	{
 		"file": "purposefulstorage:config/transformations/weapons/longweapons",
 		"op": "addmerge", 
 		"path": "/vanillaarmory:spear-generic-*",
