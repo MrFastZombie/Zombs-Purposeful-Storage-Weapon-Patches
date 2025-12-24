@@ -95,6 +95,30 @@
 		"value": "firearm",
 		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
 	},
+	{
+		"file": "extrafirearms:itemtypes/firearms/handgonne",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "firearm",
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+	{
+		"file": "extrafirearms:itemtypes/firearms/handgonne-iron",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "firearm",
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["extrafirearms:firearm-handgonne-*"],
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
     {
 		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
 		"op": "addmerge", 
@@ -222,5 +246,13 @@
 		"side": "server",
 		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.42, "y": -0.01, "z": 0.4 }, "rotation": { "x": 0, "y": -90, "z": 20 }, "scale": 0.825 },
         "dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/extrafirearms:firearm-handgonne-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.105, "y": 0, "z": 0.43 }, "rotation": { "x": 0, "y": -90, "z": 20 }, "scale": 0.825 },
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
 	}
 ]
