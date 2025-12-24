@@ -1,0 +1,42 @@
+[
+    {
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/game:spear-generic-komatiite",
+		"side": "server",
+		"value": { "origin": { "x": -2, "y": 0, "z": 0.5 }, "scaleXYZ": { "x": 0.85, "y": 0.85, "z": 0.85 } },
+		"dependsOn": [ { "modid": "mngeology" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/game:spear-generic-monzonite",
+		"side": "server",
+		"value": { "origin": { "x": -2, "y": 0, "z": 0.5 }, "scaleXYZ": { "x": 0.85, "y": 0.85, "z": 0.85 } },
+		"dependsOn": [ { "modid": "mngeology" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/game:spear-generic-pyroxenite",
+		"side": "server",
+		"value": { "origin": { "x": -2, "y": 0, "z": 0.5 }, "scaleXYZ": { "x": 0.85, "y": 0.85, "z": 0.85 } },
+		"dependsOn": [ { "modid": "mngeology" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/game:spear-generic-serpentinite",
+		"side": "server",
+		"value": { "origin": { "x": -2, "y": 0, "z": 0.5 }, "scaleXYZ": { "x": 0.85, "y": 0.85, "z": 0.85 } },
+		"dependsOn": [ { "modid": "mngeology" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/game:spear-generic-syenite",
+		"side": "server",
+		"value": { "origin": { "x": -2, "y": 0, "z": 0.5 }, "scaleXYZ": { "x": 0.85, "y": 0.85, "z": 0.85 } },
+		"dependsOn": [ { "modid": "mngeology" } ]
+	}
+]

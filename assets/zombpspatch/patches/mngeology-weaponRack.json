@@ -1,0 +1,58 @@
+[
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "move", 
+		"frompath": "/game:spear-generic-*",
+        "path": "/temp-spear-mng",
+		"side": "server",
+        "dependsOn": [ { "modid": "mngeology" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/game:spear-generic-syenite",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.955, "y": -0.03, "z": 0.04 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scalexyz": { "x": 0.91, "y": 0.85, "z": 0.85 } },
+		"dependsOn": [ { "modid": "mngeology" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/game:spear-generic-serpentinite",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.955, "y": -0.03, "z": 0.04 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scalexyz": { "x": 0.91, "y": 0.85, "z": 0.85 } },
+		"dependsOn": [ { "modid": "mngeology" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/game:spear-generic-pyroxenite",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.955, "y": -0.03, "z": 0.04 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scalexyz": { "x": 0.91, "y": 0.85, "z": 0.85 } },
+		"dependsOn": [ { "modid": "mngeology" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/game:spear-generic-monzonite",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.955, "y": -0.03, "z": 0.04 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scalexyz": { "x": 0.91, "y": 0.85, "z": 0.85 } },
+		"dependsOn": [ { "modid": "mngeology" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/game:spear-generic-komatiite",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.955, "y": -0.03, "z": 0.04 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scalexyz": { "x": 0.91, "y": 0.85, "z": 0.85 } },
+		"dependsOn": [ { "modid": "mngeology" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "move", 
+		"frompath": "/temp-spear-mng",
+        "path": "/game:spear-generic-*",
+		"side": "server",
+        "dependsOn": [ { "modid": "mngeology" } ]
+	}
+]
