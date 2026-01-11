@@ -1,0 +1,58 @@
+[
+    {
+		"file": "electricalprogressiveequipment:itemtypes/weapon/static-spear",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "spear",
+		"dependsOn": [ { "modid": "electricalprogressiveequipment" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["electricalprogressiveequipment:static-spear*"],
+		"dependsOn": [ { "modid": "electricalprogressiveequipment" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["electricalprogressiveequipment:static-spear*"],
+		"dependsOn": [ { "modid": "electricalprogressiveequipment" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/swords",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["electricalprogressiveequipment:static-saber*"],
+		"dependsOn": [ { "modid": "electricalprogressiveequipment" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/electricalprogressiveequipment:static-spear*",
+		"side": "server",
+		"value": { "translation": { "x": 0.55, "y": -0.1, "z": 0 }, "scale": 0.8 },
+		"dependsOn": [ { "modid": "electricalprogressiveequipment" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/electricalprogressiveequipment:static-spear*",
+		"side": "server",
+		"value": { "translation": { "x": 0, "y": 0, "z": 0.23 } },
+		"dependsOn": [ { "modid": "electricalprogressiveequipment" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swords",
+		"op": "addmerge", 
+		"path": "/electricalprogressiveequipment:static-saber*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.10, "y": 0.525, "z": 0.44 }, "rotation": { "x": 90, "y": 0, "z": 0 }, "scale": 1 },
+		"dependsOn": [ { "modid": "electricalprogressiveequipment" } ]
+	}
+]
