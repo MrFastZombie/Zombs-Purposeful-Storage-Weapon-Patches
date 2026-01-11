@@ -1,6 +1,22 @@
 [
     {
+		"file": "extrafirearms:itemtypes/maltiez/musket",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "firearm",
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+	{
 		"file": "extrafirearms:itemtypes/firearms/jezail",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "firearm",
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+	{
+		"file": "extrafirearms:itemtypes/maltiez/arquebus",
 		"op": "addmerge", 
 		"path": "/attributes/psGroup",
 		"side": "server",
@@ -25,6 +41,14 @@
 	},
     {
 		"file": "extrafirearms:itemtypes/firearms/wheellockrifle-iron",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "firearm",
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+	{
+		"file": "extrafirearms:itemtypes/maltiez/carbine",
 		"op": "addmerge", 
 		"path": "/attributes/psGroup",
 		"side": "server",
@@ -71,6 +95,14 @@
 		"value": "firearm",
 		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
 	},
+	{
+		"file": "extrafirearms:itemtypes/maltiez/superimposed",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "firearm",
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
     {
 		"file": "extrafirearms:itemtypes/firearms/superimposed-iron",
 		"op": "addmerge", 
@@ -89,6 +121,22 @@
 	},
     {
 		"file": "extrafirearms:itemtypes/firearms/blunderbussdb",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "firearm",
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+	{
+		"file": "extrafirearms:itemtypes/maltiez/blunderbuss",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "firearm",
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+	{
+		"file": "extrafirearms:itemtypes/maltiez/blunderbuss-flintlock",
 		"op": "addmerge", 
 		"path": "/attributes/psGroup",
 		"side": "server",
@@ -181,6 +229,70 @@
 		"path": "/CollectibleCodes",
 		"side": "server",
 		"value": ["extrafirearms:firearm-volleygun-*"],
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["extrafirearms:firearm-musket-*"],
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["extrafirearms:firearm-carbine-*"],
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["extrafirearms:firearm-arquebus-*"],
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["extrafirearms:firearm-blunderbuss-*"],
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/extrafirearms:firearm-carbine-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.34, "y": -0.01, "z": 0.45 }, "rotation": { "x": 0, "y": -90, "z": 20 }, "scale": 0.825 },
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/extrafirearms:firearm-musket-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.35, "y": -0.01, "z": 0.52 }, "rotation": { "x": 0, "y": -90, "z": 20 }, "scale": 0.825 },
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/extrafirearms:firearm-arquebus-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.39, "y": -0.01, "z": 0.38 }, "rotation": { "x": 0, "y": -90, "z": 20 }, "scale": 0.825 },
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/extrafirearms:firearm-blunderbuss-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.4, "y": -0.01, "z": 0.37 }, "rotation": { "x": 0, "y": -90, "z": 20 }, "scale": 0.825 },
 		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
 	},
 	{
