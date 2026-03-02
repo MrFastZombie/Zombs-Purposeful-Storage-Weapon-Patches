@@ -1,0 +1,82 @@
+[
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["mitsuyoninja:naginata-*"],
+		"dependsOn": [ { "modid": "mitsuyoninja" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["mitsuyoninja:yari-su-*"],
+		"dependsOn": [ { "modid": "mitsuyoninja" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["mitsuyoninja:yari-jumonji-*"],
+		"dependsOn": [ { "modid": "mitsuyoninja" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["mitsuyoninja:yari-bishamon-*"],
+		"dependsOn": [ { "modid": "mitsuyoninja" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["mitsuyoninja:tetsubou-*"],
+		"dependsOn": [ { "modid": "mitsuyoninja" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/mitsuyoninja:naginata-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0.5, "z": 0.5 }, "translation": { "x": 1.03, "y": -0.51, "z": 0.16 }, "rotation": { "x": 98, "y": 1, "z": 0 }, "scale": 0.7 },
+		"dependsOn": [ { "modid": "mitsuyoninja" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/mitsuyoninja:yari-su-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0.5, "z": 0.5 }, "translation": { "x": 1.3, "y": -0.095, "z": 0.0 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.85 },
+		"dependsOn": [ { "modid": "mitsuyoninja" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/mitsuyoninja:yari-jumonji-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0.5, "z": 0.5 }, "translation": { "x": 1.34, "y": -0.095, "z": 0.0 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.85 },
+		"dependsOn": [ { "modid": "mitsuyoninja" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/mitsuyoninja:tetsubou-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0.5, "z": 0.5 }, "translation": { "x": 0.92, "y": -0.27, "z": 0.0 }, "rotation": { "x": 0, "y": 0, "z": 2 }, "scale": 0.6 },
+		"dependsOn": [ { "modid": "mitsuyoninja" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/mitsuyoninja:yari-bishamon-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0.5, "z": 0.5 }, "translation": { "x": 1.3, "y": -0.29, "z": 0.35 }, "rotation": { "x": 62, "y": 0, "z": 0 }, "scale": 0.85 },
+		"dependsOn": [ { "modid": "mitsuyoninja" } ]
+	}
+]

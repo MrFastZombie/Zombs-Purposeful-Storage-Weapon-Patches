@@ -1,0 +1,74 @@
+[
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["glockmaker:firearm-boltaction-*"],
+		"dependsOn": [ { "modid": "glockmaker" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["glockmaker:firearm-leveraction-*"],
+		"dependsOn": [ { "modid": "glockmaker" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["glockmaker:firearm-pumpaction-*"],
+		"dependsOn": [ { "modid": "glockmaker" } ]
+	},
+    {
+		"file": "glockmaker:itemtypes/firearms/boltActionRifle",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "firearm",
+		"dependsOn": [ { "modid": "glockmaker" } ]
+	},
+    {
+		"file": "glockmaker:itemtypes/firearms/leverActionCarbine",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "firearm",
+		"dependsOn": [ { "modid": "glockmaker" } ]
+	},
+    {
+		"file": "glockmaker:itemtypes/firearms/pumpActionShotgun",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "firearm",
+		"dependsOn": [ { "modid": "glockmaker" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/glockmaker:firearm-boltaction-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.33, "y": 0, "z": 0.5 }, "rotation": { "x": 12, "y": -89, "z": 128 }, "scale": 0.81 },
+		"dependsOn": [ { "modid": "glockmaker" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/glockmaker:firearm-leveraction-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.48, "y": 0, "z": 0.5 }, "rotation": { "x": 12, "y": -83, "z": 128 }, "scale": 0.81 },
+		"dependsOn": [ { "modid": "glockmaker" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/glockmaker:firearm-pumpaction-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.33, "y": 0, "z": 0.5 }, "rotation": { "x": 12, "y": -88, "z": 128 }, "scale": 0.81 },
+		"dependsOn": [ { "modid": "glockmaker" } ]
+	}
+]

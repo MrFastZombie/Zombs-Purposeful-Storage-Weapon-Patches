@@ -1,0 +1,18 @@
+[
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["mitsuyoninja:yari-su-*"],
+		"dependsOn": [ { "modid": "mitsuyoninja" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/mitsuyoninja:yari-su-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0.5, "z": 0.5 }, "translation": { "x": 0.05, "y": -0.1, "z": 0.05 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.85 },
+		"dependsOn": [ { "modid": "mitsuyoninja" } ]
+	}
+]
