@@ -152,6 +152,14 @@
 		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
 	},
 	{
+		"file": "extrafirearms:itemtypes/firearms/musket-revolver",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "firearm",
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+	{
 		"file": "extrafirearms:itemtypes/firearms/handgonne-iron",
 		"op": "addmerge", 
 		"path": "/attributes/psGroup",
@@ -264,6 +272,14 @@
 		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
 	},
 	{
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["extrafirearms:firearm-musketrevolver-*"],
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+	{
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
 		"op": "addmerge", 
 		"path": "/extrafirearms:firearm-carbine-*",
@@ -365,6 +381,14 @@
 		"path": "/extrafirearms:firearm-handgonne-*",
 		"side": "server",
 		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.105, "y": 0, "z": 0.43 }, "rotation": { "x": 0, "y": -90, "z": 20 }, "scale": 0.825 },
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/extrafirearms:firearm-musketrevolver-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.435, "y": 0.05, "z": 0.6 }, "rotation": { "x": 0, "y": -88, "z": 43 }, "scale": 0.81 },
 		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
 	}
 ]
