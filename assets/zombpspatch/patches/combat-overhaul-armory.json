@@ -48,7 +48,7 @@
 		"dependsOn": [ { "modid": "armory" } ]
 	},
 	{
-		"file": "armory:itemtypes/weapons/pike",
+		"file": "armory:itemtypes/weapons/halberd",
 		"op": "addmerge",
 		"path": "/attributes/psGroup",
 		"side": "server",
