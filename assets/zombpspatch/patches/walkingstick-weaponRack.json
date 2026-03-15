@@ -4,7 +4,7 @@
 		"op": "addmerge", 
 		"path": "/CollectibleCodes",
 		"side": "server",
-		"value": ["walkingstick:walkingstick", "walkingstick:walkingstick-lantern-*", "walkingstick:walkingstick-cowskull", "walkingstick:walkingstick-crude", "walkingstick:walkingstick-blackthorn", "walkingstick:walkingstick-shepherds", "walkingstick:walkingstick-reinforced", "walkingstick:walkingstick-architect", "walkingstick:walkingstick-sling"],
+		"value": ["walkingstick:walkingstick", "walkingstick:walkingstick-lantern-*", "walkingstick:walkingstick-cowskull", "walkingstick:walkingstick-crude", "walkingstick:walkingstick-blackthorn", "walkingstick:walkingstick-shepherds", "walkingstick:walkingstick-reinforced", "walkingstick:walkingstick-architect", "walkingstick:walkingstick-sling", "walkingstick:walkingstick-jonas"],
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	},
     {
@@ -45,6 +45,14 @@
 		"path": "/walkingstick:walkingstick-architect",
 		"side": "server",
 		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 1.4, "y": 0.01, "z": 0.04 }, "rotation": { "x": 0, "y": 5, "z": -0.009 }, "scale": 0.88 },
+		"dependsOn": [ { "modid": "walkingstick" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge",
+		"path": "/walkingstick:walkingstick-jonas",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 1.4, "y": -0.006, "z": 0.04 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scale": 0.88 },
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	},
     {
