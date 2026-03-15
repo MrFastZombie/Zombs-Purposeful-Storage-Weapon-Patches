@@ -8,7 +8,7 @@
 		"dependsOn": [ { "modid": "mitsuyoninja" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
 		"op": "addmerge", 
 		"path": "/mitsuyoninja:yari-su-*",
 		"side": "server",
