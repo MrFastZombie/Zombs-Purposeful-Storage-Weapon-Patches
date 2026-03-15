@@ -46,5 +46,21 @@
 		"side": "server",
 		"value": { "origin": { "x": 0.5, "y": 0.5, "z": 0.5 }, "translation": { "x": 2.8, "y": -0.09, "z": -0.02 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.8 },
 		"dependsOn": [ { "modid": "armory" } ]
+	},
+	{
+		"file": "armory:itemtypes/weapons/pike",
+		"op": "addmerge",
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "spear",
+		"dependsOn": [ { "modid": "armory" } ]
+	},
+	{
+		"file": "armory:itemtypes/weapons/quarterstaff",
+		"op": "addmerge",
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "spear",
+		"dependsOn": [ { "modid": "armory" } ]
 	}
 ]
