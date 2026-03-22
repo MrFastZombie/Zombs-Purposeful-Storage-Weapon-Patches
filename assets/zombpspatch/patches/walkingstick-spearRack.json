@@ -31,6 +31,30 @@
 		"value": "spear",
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	},
+	{
+		"file": "walkingstick:itemtypes/tool/walkingsticks/walkingstick-forlorn",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "spear",
+		"dependsOn": [ { "modid": "walkingstick" } ]
+	},
+	{
+		"file": "walkingstick:itemtypes/tool/walkingsticks/walkingstick-blackguard",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "spear",
+		"dependsOn": [ { "modid": "walkingstick" } ]
+	},
+	{
+		"file": "walkingstick:itemtypes/tool/walkingsticks/walkingstick-fine",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "spear",
+		"dependsOn": [ { "modid": "walkingstick" } ]
+	},
     {
 		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
 		"op": "addmerge", 
@@ -79,6 +103,30 @@
 		"value": ["walkingstick:walkingstick-sling"],
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	},
+	{
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["walkingstick:walkingstick-blackguard"],
+		"dependsOn": [ { "modid": "walkingstick" } ]
+	},
+	{
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["walkingstick:walkingstick-forlorn"],
+		"dependsOn": [ { "modid": "walkingstick" } ]
+	},
+	{
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["walkingstick:walkingstick-fine"],
+		"dependsOn": [ { "modid": "walkingstick" } ]
+	},
     {
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
 		"op": "addmerge", 
@@ -125,6 +173,30 @@
 		"path": "/walkingstick:walkingstick-shepherds",
 		"side": "server",
 		"value": { "origin": { "x": 1.9, "y": 0.1, "z": 0.5 }, "translation": {"x": 0, "y": -0.15, "z": 0.02}, "scaleXYZ": { "x": 0.88, "y": 0.88, "z": 0.88 }, "rotation": { "x": 155, "y": 0, "z": 0 } },
+		"dependsOn": [ { "modid": "walkingstick" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/walkingstick:walkingstick-forlorn",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0.5 }, "translation": {"x": 0.22, "y": 0, "z": 0.053}, "scaleXYZ": { "x": 0.88, "y": 0.88, "z": 0.88 }, "rotation": { "x": 0, "y": 0, "z": 0 } },
+		"dependsOn": [ { "modid": "walkingstick" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/walkingstick:walkingstick-blackguard",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0.5 }, "translation": {"x": 0.22, "y": 0.03, "z": 0.028}, "scaleXYZ": { "x": 0.88, "y": 0.88, "z": 0.88 }, "rotation": { "x": -55, "y": 0, "z": 0 } },
+		"dependsOn": [ { "modid": "walkingstick" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/walkingstick:walkingstick-fine",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0.5 }, "translation": {"x": 0.21, "y": 0, "z": -0.01}, "scaleXYZ": { "x": 0.88, "y": 0.88, "z": 0.88 }, "rotation": { "x": 9, "y": 0, "z": 0 } },
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	}
 ]
