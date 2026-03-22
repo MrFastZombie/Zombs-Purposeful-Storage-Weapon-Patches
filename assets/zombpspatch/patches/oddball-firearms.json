@@ -1,0 +1,26 @@
+[
+    {
+		"file": "mannyoddballfirearms:itemtypes/firearms/wheellockcarbineslug",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "firearm",
+		"dependsOn": [ { "modid": "mannyoddballfirearms" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["mannyoddballfirearms:firearm-wheellockcarbine*"],
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/mannyoddballfirearms:firearm-wheellockcarbine*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.46, "y": -0.01, "z": 0.43 }, "rotation": { "x": 0, "y": -90, "z": 20 }, "scale": 0.81 },
+		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+	}
+]
