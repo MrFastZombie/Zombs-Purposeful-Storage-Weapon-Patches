@@ -32,15 +32,7 @@
 		"dependsOn": [ { "modid": "mannyextrafirearmsvarnished" } ]
 	},
     {
-		"file": "mannyextrafirearmsvarnished:itemtypes/firearms/wheellockrifle-steel",
-		"op": "addmerge", 
-		"path": "/attributes/psGroup",
-		"side": "server",
-		"value": "firearm",
-		"dependsOn": [ { "modid": "mannyextrafirearmsvarnished" } ]
-	},
-    {
-		"file": "mannyextrafirearmsvarnished:itemtypes/firearms/wheellockrifle-iron",
+		"file": "mannyextrafirearmsvarnished:itemtypes/firearms/wheellockrifle",
 		"op": "addmerge", 
 		"path": "/attributes/psGroup",
 		"side": "server",
