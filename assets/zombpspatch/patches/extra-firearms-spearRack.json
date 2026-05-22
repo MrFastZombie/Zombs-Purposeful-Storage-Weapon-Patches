@@ -1,6 +1,6 @@
 [
     {
-		"file": "mannycaplockfirearms:itemtypes/maltiez/musket-caplock",
+		"file": "mannycaplockfirearms:itemtypes/firearms/musket-caplock",
 		"op": "addmerge", 
 		"path": "/attributes/psGroup",
 		"side": "server",
@@ -8,7 +8,7 @@
 		"dependsOn": [ { "modid": "mannymaltiezpartialpack" } ]
 	},
 	{
-		"file": "mannycaplockfirearms:itemtypes/maltiez/carbine-caplock",
+		"file": "mannycaplockfirearms:itemtypes/firearms/carbine-caplock",
 		"op": "addmerge", 
 		"path": "/attributes/psGroup",
 		"side": "server",
@@ -70,22 +70,6 @@
 		"side": "server",
 		"value": "firearm",
 		"dependsOn": [ { "modid": "mannymaltiezpartialpack" } ]
-	},
-    {
-		"file": "extrafirearms:itemtypes/firearms/wheellockcarbine-steel",
-		"op": "addmerge", 
-		"path": "/attributes/psGroup",
-		"side": "server",
-		"value": "firearm",
-		"dependsOn": [ { "modid": "mannywheellockpack" } ]
-	},
-    {
-		"file": "extrafirearms:itemtypes/firearms/wheellockcarbine-iron",
-		"op": "addmerge", 
-		"path": "/attributes/psGroup",
-		"side": "server",
-		"value": "firearm",
-		"dependsOn": [ { "modid": "mannywheellockpack" } ]
 	},
     {
 		"file": "extrafirearms:itemtypes/firearms/volleygun",
