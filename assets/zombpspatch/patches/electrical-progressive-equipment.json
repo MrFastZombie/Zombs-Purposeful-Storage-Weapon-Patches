@@ -24,7 +24,7 @@
 		"dependsOn": [ { "modid": "electricalprogressiveequipment" } ]
 	},
     {
-		"file": "purposefulstorage:config/restrictions/weapons/swords",
+		"file": "purposefulstorage:config/restrictions/weapons/swordpedestal",
 		"op": "addmerge", 
 		"path": "/CollectibleCodes",
 		"side": "server",
@@ -48,7 +48,7 @@
 		"dependsOn": [ { "modid": "electricalprogressiveequipment" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/swords",
+		"file": "purposefulstorage:config/transformations/weapons/swordpedestal",
 		"op": "addmerge", 
 		"path": "/electricalprogressiveequipment:static-saber*",
 		"side": "server",
