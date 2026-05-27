@@ -50,6 +50,13 @@
 	},
 	{
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "remove", 
+		"path": "/game:spear-generic-chert",
+		"side": "server",
+		"dependsOn": [ { "modid": "combatoverhaul", "invert": "true" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
 		"op": "addmerge", 
 		"path": "/game:spear-generic-chert",
 		"side": "server",
