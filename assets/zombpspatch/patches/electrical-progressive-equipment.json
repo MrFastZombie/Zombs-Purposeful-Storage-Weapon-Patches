@@ -24,7 +24,7 @@
 		"dependsOn": [ { "modid": "electricalprogressiveequipment" } ]
 	},
     {
-		"file": "purposefulstorage:config/restrictions/weapons/swords",
+		"file": "purposefulstorage:config/restrictions/weapons/swordpedestal",
 		"op": "addmerge", 
 		"path": "/CollectibleCodes",
 		"side": "server",
@@ -44,11 +44,11 @@
 		"op": "addmerge", 
 		"path": "/electricalprogressiveequipment:static-spear*",
 		"side": "server",
-		"value": { "translation": { "x": 0, "y": 0, "z": 0.23 } },
+		"value": { "translation": { "x": 0, "y": 0, "z": 0.169 } },
 		"dependsOn": [ { "modid": "electricalprogressiveequipment" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/swords",
+		"file": "purposefulstorage:config/transformations/weapons/swordpedestal",
 		"op": "addmerge", 
 		"path": "/electricalprogressiveequipment:static-saber*",
 		"side": "server",

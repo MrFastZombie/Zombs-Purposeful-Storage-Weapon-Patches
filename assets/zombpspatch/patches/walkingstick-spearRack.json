@@ -1,5 +1,27 @@
 [
     {
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": [
+			"walkingstick:walkingstick",
+			"walkingstick:walkingstick-reinforced",
+			"walkingstick:walkingstick-blackthorn",
+			"walkingstick:walkingstick-shepherds",
+			"walkingstick:walkingstick-architect",
+			"walkingstick:walkingstick-sling",
+			"walkingstick:walkingstick-blackguard",
+			"walkingstick:walkingstick-forlorn",
+			"walkingstick:walkingstick-fine",
+			"walkingstick:walkingstick-sheath",
+			"walkingstick:walkingstick-sheathed",
+			"walkingstick:walkingstick-gun-sheath",
+			"walkingstick:walkingstick-gun-sheathed"
+		],
+		"dependsOn": [ { "modid": "walkingstick" } ]
+	},
+	{
 		"file": "walkingstick:itemtypes/tool/walkingsticks/walkingstick",
 		"op": "addmerge", 
 		"path": "/attributes/psGroup",
@@ -55,76 +77,60 @@
 		"value": "spear",
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	},
-    {
-		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+	{
+		"file": "walkingstick:itemtypes/tool/walkingsticks/walkingstick-sling",
 		"op": "addmerge", 
-		"path": "/CollectibleCodes",
+		"path": "/attributes/psGroup",
 		"side": "server",
-		"value": ["walkingstick:walkingstick"],
-		"dependsOn": [ { "modid": "walkingstick" } ]
-	},
-    {
-		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
-		"op": "addmerge", 
-		"path": "/CollectibleCodes",
-		"side": "server",
-		"value": ["walkingstick:walkingstick-reinforced"],
+		"value": "spear",
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	},
 	{
-		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"file": "walkingstick:itemtypes/tool/walkingsticks/walkingstick-fine",
 		"op": "addmerge", 
-		"path": "/CollectibleCodes",
+		"path": "/attributes/psGroup",
 		"side": "server",
-		"value": ["walkingstick:walkingstick-blackthorn"],
-		"dependsOn": [ { "modid": "walkingstick" } ]
-	},
-    {
-		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
-		"op": "addmerge", 
-		"path": "/CollectibleCodes",
-		"side": "server",
-		"value": ["walkingstick:walkingstick-shepherds"],
+		"value": "spear",
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	},
 	{
-		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"file": "walkingstick:itemtypes/tool/walkingsticks/walkingstick-architect",
 		"op": "addmerge", 
-		"path": "/CollectibleCodes",
+		"path": "/attributes/psGroup",
 		"side": "server",
-		"value": ["walkingstick:walkingstick-architect"],
+		"value": "spear",
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	},
 	{
-		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"file": "walkingstick:itemtypes/tool/walkingsticks/walkingstick-gun-sheath",
 		"op": "addmerge", 
-		"path": "/CollectibleCodes",
+		"path": "/attributes/psGroup",
 		"side": "server",
-		"value": ["walkingstick:walkingstick-sling"],
+		"value": "spear",
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	},
 	{
-		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"file": "walkingstick:itemtypes/tool/walkingsticks/walkingstick-gun-sheathed",
 		"op": "addmerge", 
-		"path": "/CollectibleCodes",
+		"path": "/attributes/psGroup",
 		"side": "server",
-		"value": ["walkingstick:walkingstick-blackguard"],
+		"value": "spear",
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	},
 	{
-		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"file": "walkingstick:itemtypes/tool/walkingsticks/walkingstick-sheath",
 		"op": "addmerge", 
-		"path": "/CollectibleCodes",
+		"path": "/attributes/psGroup",
 		"side": "server",
-		"value": ["walkingstick:walkingstick-forlorn"],
+		"value": "spear",
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	},
 	{
-		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"file": "walkingstick:itemtypes/tool/walkingsticks/walkingstick-sheathed",
 		"op": "addmerge", 
-		"path": "/CollectibleCodes",
+		"path": "/attributes/psGroup",
 		"side": "server",
-		"value": ["walkingstick:walkingstick-fine"],
+		"value": "spear",
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	},
     {
@@ -132,7 +138,7 @@
 		"op": "addmerge", 
 		"path": "/walkingstick:walkingstick",
 		"side": "server",
-		"value": { "origin": { "x": 1.8, "y": 0, "z": 0.5 }, "scaleXYZ": { "x": 0.88, "y": 0.88, "z": 0.88 } },
+		"value": { "origin": { "x": 1.8, "y": 0, "z": 0.5 }, "translation": { "x": 0, "y": 0.09, "z": 0 }, "scaleXYZ": { "x": 0.88, "y": 0.88, "z": 0.88 } },
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	},
 	{
@@ -140,7 +146,7 @@
 		"op": "addmerge", 
 		"path": "/walkingstick:walkingstick-sling",
 		"side": "server",
-		"value": { "origin": { "x": 1.8, "y": 0, "z": 0.5 }, "scaleXYZ": { "x": 0.88, "y": 0.88, "z": 0.88 } },
+		"value": { "origin": { "x": 1.8, "y": 0, "z": 0.5 }, "translation": { "x": 0.03, "y": 0.09, "z": 0 }, "scaleXYZ": { "x": 0.88, "y": 0.88, "z": 0.88 } },
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	},
 	{
@@ -148,7 +154,7 @@
 		"op": "addmerge", 
 		"path": "/walkingstick:walkingstick-architect",
 		"side": "server",
-		"value": { "origin": { "x": 1.8, "y": 0, "z": 0.5 }, "scaleXYZ": { "x": 0.88, "y": 0.88, "z": 0.88 } },
+		"value": { "origin": { "x": 1.8, "y": 0, "z": 0.5 }, "translation": { "x": 0.05, "y": 0.09, "z": -0.01 }, "scaleXYZ": { "x": 0.88, "y": 0.88, "z": 0.88 } },
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	},
     {
@@ -156,7 +162,7 @@
 		"op": "addmerge", 
 		"path": "/walkingstick:walkingstick-reinforced",
 		"side": "server",
-		"value": { "origin": { "x": 1.9, "y": 0, "z": 0.5 }, "scaleXYZ": { "x": 0.88, "y": 0.88, "z": 0.88 } },
+		"value": { "origin": { "x": 1.9, "y": 0, "z": 0.5 }, "translation": { "x": 0, "y": 0.07, "z": 0.03 }, "scaleXYZ": { "x": 0.88, "y": 0.88, "z": 0.88 } },
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	},
 	{
@@ -164,7 +170,7 @@
 		"op": "addmerge", 
 		"path": "/walkingstick:walkingstick-blackthorn",
 		"side": "server",
-		"value": { "origin": { "x": 1.8, "y": 0, "z": 0.5 }, "translation": {"x": 0, "y": 0, "z": -0.04}, "scaleXYZ": { "x": 0.88, "y": 0.88, "z": 0.88 }, "rotation": { "x": 145, "y": 0, "z": 0 } },
+		"value": { "origin": { "x": 1.8, "y": 0, "z": 0.5 }, "translation": {"x": 0, "y": 0.03, "z": -0.07}, "scaleXYZ": { "x": 0.88, "y": 0.88, "z": 0.88 }, "rotation": { "x": 145, "y": 0, "z": 0 } },
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	},
 	{
@@ -172,7 +178,7 @@
 		"op": "addmerge", 
 		"path": "/walkingstick:walkingstick-shepherds",
 		"side": "server",
-		"value": { "origin": { "x": 1.9, "y": 0.1, "z": 0.5 }, "translation": {"x": 0, "y": -0.15, "z": 0.02}, "scaleXYZ": { "x": 0.88, "y": 0.88, "z": 0.88 }, "rotation": { "x": 155, "y": 0, "z": 0 } },
+		"value": { "origin": { "x": 1.9, "y": 0.1, "z": 0.5 }, "translation": {"x": 0, "y": -0.15, "z": -0.03}, "scaleXYZ": { "x": 0.88, "y": 0.88, "z": 0.88 }, "rotation": { "x": 165, "y": 0, "z": 0 } },
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	},
 	{
@@ -180,7 +186,7 @@
 		"op": "addmerge", 
 		"path": "/walkingstick:walkingstick-forlorn",
 		"side": "server",
-		"value": { "origin": { "x": 0, "y": 0, "z": 0.5 }, "translation": {"x": 0.22, "y": 0, "z": 0.053}, "scaleXYZ": { "x": 0.88, "y": 0.88, "z": 0.88 }, "rotation": { "x": 0, "y": 0, "z": 0 } },
+		"value": { "origin": { "x": 0, "y": 0, "z": 0.5 }, "translation": {"x": 0.22, "y": 0.09, "z": 0.053}, "scaleXYZ": { "x": 0.88, "y": 0.88, "z": 0.88 }, "rotation": { "x": 0, "y": 0, "z": 0 } },
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	},
 	{
@@ -188,7 +194,7 @@
 		"op": "addmerge", 
 		"path": "/walkingstick:walkingstick-blackguard",
 		"side": "server",
-		"value": { "origin": { "x": 0, "y": 0, "z": 0.5 }, "translation": {"x": 0.22, "y": 0.03, "z": 0.028}, "scaleXYZ": { "x": 0.88, "y": 0.88, "z": 0.88 }, "rotation": { "x": -55, "y": 0, "z": 0 } },
+		"value": { "origin": { "x": 0, "y": 0, "z": 0.5 }, "translation": {"x": 0.22, "y": 0.09, "z": 0.028}, "scaleXYZ": { "x": 0.88, "y": 0.88, "z": 0.88 }, "rotation": { "x": -55, "y": 0, "z": 0 } },
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	},
 	{
@@ -196,7 +202,39 @@
 		"op": "addmerge", 
 		"path": "/walkingstick:walkingstick-fine",
 		"side": "server",
-		"value": { "origin": { "x": 0, "y": 0, "z": 0.5 }, "translation": {"x": 0.21, "y": 0, "z": -0.01}, "scaleXYZ": { "x": 0.88, "y": 0.88, "z": 0.88 }, "rotation": { "x": 9, "y": 0, "z": 0 } },
+		"value": { "origin": { "x": 0, "y": 0, "z": 0.5 }, "translation": {"x": 0.21, "y": 0.09, "z": -0.01}, "scaleXYZ": { "x": 0.88, "y": 0.88, "z": 0.88 }, "rotation": { "x": 9, "y": 0, "z": 0 } },
+		"dependsOn": [ { "modid": "walkingstick" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/walkingstick:walkingstick-sheath",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0.5 }, "translation": {"x": 0.25, "y": 0.09, "z": -0.07}, "scaleXYZ": { "x": 0.88, "y": 0.88, "z": 0.88 }, "rotation": { "x": 9, "y": 0, "z": 0 } },
+		"dependsOn": [ { "modid": "walkingstick" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/walkingstick:walkingstick-sheathed",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0.5 }, "translation": {"x": 0.25, "y": 0.07, "z": -0.01}, "scaleXYZ": { "x": 0.88, "y": 0.88, "z": 0.88 }, "rotation": { "x": 9, "y": 0, "z": 0 } },
+		"dependsOn": [ { "modid": "walkingstick" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/walkingstick:walkingstick-gun-sheath",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0.5 }, "translation": {"x": 0.24, "y": 0.09, "z": -0.07}, "scaleXYZ": { "x": 0.88, "y": 0.88, "z": 0.88 }, "rotation": { "x": 9, "y": 0, "z": 0 } },
+		"dependsOn": [ { "modid": "walkingstick" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/walkingstick:walkingstick-gun-sheathed",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0.5 }, "translation": {"x": 0.24, "y": 0.03, "z": 0.047}, "scaleXYZ": { "x": 0.88, "y": 0.88, "z": 0.88 }, "rotation": { "x": 57, "y": 0, "z": 0 } },
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	}
 ]

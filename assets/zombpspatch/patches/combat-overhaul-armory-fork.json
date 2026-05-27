@@ -5,7 +5,7 @@
 		"path": "/CollectibleCodes",
 		"side": "server",
 		"value": ["armory:halberd-*"],
-		"dependsOn": [ { "modid": "armory" } ]
+		"dependsOn": [ { "modid": "armoryfork" } ]
     },
     {
 		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
@@ -13,15 +13,15 @@
 		"path": "/CollectibleCodes",
 		"side": "server",
 		"value": ["armory:quarterstaff-*"],
-		"dependsOn": [ { "modid": "armory" } ]
+		"dependsOn": [ { "modid": "armoryfork" } ]
     },
-    {
+	{
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
 		"op": "addmerge",
 		"path": "/armory:halberd-plain-iron",
 		"side": "server",
 		"value": { "origin": { "x": 0, "y": 0, "z": 0.5 }, "translation": { "x": 1.15, "y": 0, "z": 0.1 }, "rotation": { "x": -45, "y": 0, "z": 0 }, "scale": 0.8 },
-		"dependsOn": [ { "modid": "armory" } ]
+		"dependsOn": [ { "modid": "armoryfork" } ]
 	},
     {
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
@@ -29,7 +29,7 @@
 		"path": "/armory:halberd-*",
 		"side": "server",
 		"value": { "origin": { "x": 0, "y": 0, "z": 0.5 }, "translation": { "x": 1.15, "y": -0.03, "z": 0.17 }, "rotation": { "x": -45, "y": 0, "z": 0 }, "scale": 0.8 },
-		"dependsOn": [ { "modid": "armory" } ]
+		"dependsOn": [ { "modid": "armoryfork" } ]
 	},
 	{
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
@@ -37,7 +37,7 @@
 		"path": "/armory:quarterstaff-*",
 		"side": "server",
 		"value": { "origin": { "x": 0.5, "y": 0.5, "z": 0.5 }, "translation": { "x": 1.2, "y": -0.1, "z": 0.09 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.8 },
-		"dependsOn": [ { "modid": "armory" } ]
+		"dependsOn": [ { "modid": "armoryfork" } ]
 	},
 	{
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
@@ -45,7 +45,7 @@
 		"path": "/armory:pike-plain-*",
 		"side": "server",
 		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 2.45, "y": -0.05, "z": 0.26 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scaleXYZ": { "x": 0.785, "y": 0.85, "z": 0.85 } },
-		"dependsOn": [ { "modid": "armory" } ]
+		"dependsOn": [ { "modid": "armoryfork" } ]
 	},
 	{
 		"file": "purposefulstorage:config/restrictions/weapons/longweapons",
@@ -53,7 +53,7 @@
 		"path": "/CollectibleCodes",
 		"side": "server",
 		"value": ["armory:pike-plain-*"],
-		"dependsOn": [ { "modid": "armory" } ]
+		"dependsOn": [ { "modid": "armoryfork" } ]
 	},
 	{
 		"file": "purposefulstorage:config/transformations/weapons/longweapons",
@@ -61,7 +61,7 @@
 		"path": "/armory:pike-plain-*",
 		"side": "server",
 		"value": { "origin": { "x": 0.5, "y": 0.5, "z": 0.5 }, "translation": { "x": 2.8, "y": -0.09, "z": -0.02 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.8 },
-		"dependsOn": [ { "modid": "armory" } ]
+		"dependsOn": [ { "modid": "armoryfork" } ]
 	},
 	{
 		"file": "armory:itemtypes/weapons/halberd",
@@ -69,7 +69,7 @@
 		"path": "/attributes/psGroup",
 		"side": "server",
 		"value": "spear",
-		"dependsOn": [ { "modid": "armory" } ]
+		"dependsOn": [ { "modid": "armoryfork" } ]
 	},
 	{
 		"file": "armory:itemtypes/weapons/quarterstaff",
@@ -77,6 +77,6 @@
 		"path": "/attributes/psGroup",
 		"side": "server",
 		"value": "spear",
-		"dependsOn": [ { "modid": "armory" } ]
+		"dependsOn": [ { "modid": "armoryfork" } ]
 	}
 ]
