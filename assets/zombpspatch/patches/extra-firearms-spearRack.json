@@ -5,7 +5,7 @@
 		"path": "/attributes/psGroup",
 		"side": "server",
 		"value": "firearm",
-		"dependsOn": [ { "modid": "mannymaltiezpartialpack" } ]
+		"dependsOn": [ { "modid": "mannycaplockfirearms" } ]
 	},
 	{
 		"file": "mannycaplockfirearms:itemtypes/firearms/carbine-caplock",
@@ -13,7 +13,7 @@
 		"path": "/attributes/psGroup",
 		"side": "server",
 		"value": "firearm",
-		"dependsOn": [ { "modid": "mannymaltiezpartialpack" } ]
+		"dependsOn": [ { "modid": "mannycaplockfirearms" } ]
 	},
 	{
 		"file": "extrafirearms:itemtypes/maltiez/musket",

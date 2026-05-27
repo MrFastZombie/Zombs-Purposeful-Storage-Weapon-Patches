@@ -92,31 +92,55 @@
 		"op": "addmerge", 
 		"path": "/bonifiedtools:spear-bonified-copper",
 		"side": "server",
-		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 1.05, "y": -0.03, "z": 0.04 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scale": 0.825 },
-		"dependsOn": [ { "modid": "bonifiedtools" } ]
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 1.2, "y": -0.03, "z": 0.04 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scale": 0.825 },
+		"dependsOn": [ { "modid": "bonifiedtools" }, { "modid": "reforgedtools", "invert": "true" }]
 	},
 	{
 		"file": "purposefulstorage:config/transformations/weapons/longweapons",
 		"op": "addmerge", 
 		"path": "/bonifiedtools:spear-bonified-tinbronze",
 		"side": "server",
-		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 1.05, "y": -0.03, "z": 0.04 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scale": 0.825 },
-		"dependsOn": [ { "modid": "bonifiedtools" } ]
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 1.2, "y": -0.03, "z": 0.04 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scale": 0.825 },
+		"dependsOn": [ { "modid": "bonifiedtools" }, { "modid": "reforgedtools", "invert": "true" } ]
 	},
 	{
 		"file": "purposefulstorage:config/transformations/weapons/longweapons",
 		"op": "addmerge", 
 		"path": "/bonifiedtools:spear-bonified-bismuthbronze",
 		"side": "server",
-		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 1.05, "y": -0.03, "z": 0.04 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scale": 0.825 },
-		"dependsOn": [ { "modid": "bonifiedtools" } ]
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 1.2, "y": -0.03, "z": 0.04 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scale": 0.825 },
+		"dependsOn": [ { "modid": "bonifiedtools" }, { "modid": "reforgedtools", "invert": "true" } ]
 	},
 	{
 		"file": "purposefulstorage:config/transformations/weapons/longweapons",
 		"op": "addmerge", 
 		"path": "/bonifiedtools:spear-bonified-blackbronze",
 		"side": "server",
-		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 1.05, "y": -0.03, "z": 0.04 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scale": 0.825 },
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 1.2, "y": -0.03, "z": 0.04 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scale": 0.825 },
+		"dependsOn": [ { "modid": "bonifiedtools" }, { "modid": "reforgedtools", "invert": "true" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/bonifiedtools:spear-bonified-steel",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 1.2, "y": -0.03, "z": 0.04 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scale": 0.825 },
+		"dependsOn": [ { "modid": "bonifiedtools" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/bonifiedtools:spear-bonified-meteoriciron",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 1.2, "y": -0.03, "z": 0.04 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scale": 0.825 },
+		"dependsOn": [ { "modid": "bonifiedtools" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/bonifiedtools:spear-bonified-iron",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 1.2, "y": -0.03, "z": 0.04 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scale": 0.825 },
 		"dependsOn": [ { "modid": "bonifiedtools" } ]
 	},
 	{
@@ -124,7 +148,7 @@
 		"op": "addmerge", 
 		"path": "/bonifiedtools:spear-bonified-*",
 		"side": "server",
-		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.9, "y": -0.03, "z": 0.04 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scale": 0.95 },
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.95, "y": -0.03, "z": 0.04 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scaleXYZ": { "x": 0.9, "y": 0.825, "z": 0.825 } },
 		"dependsOn": [ { "modid": "bonifiedtools" } ]
 	}
 ]

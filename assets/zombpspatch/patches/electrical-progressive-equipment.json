@@ -44,7 +44,7 @@
 		"op": "addmerge", 
 		"path": "/electricalprogressiveequipment:static-spear*",
 		"side": "server",
-		"value": { "translation": { "x": 0, "y": 0, "z": 0.23 } },
+		"value": { "translation": { "x": 0, "y": 0, "z": 0.169 } },
 		"dependsOn": [ { "modid": "electricalprogressiveequipment" } ]
 	},
     {

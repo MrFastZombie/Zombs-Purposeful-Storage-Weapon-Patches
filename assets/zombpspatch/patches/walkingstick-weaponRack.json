@@ -4,7 +4,25 @@
 		"op": "addmerge", 
 		"path": "/CollectibleCodes",
 		"side": "server",
-		"value": ["walkingstick:walkingstick", "walkingstick:walkingstick-lantern-*", "walkingstick:walkingstick-cowskull", "walkingstick:walkingstick-crude", "walkingstick:walkingstick-blackthorn", "walkingstick:walkingstick-shepherds", "walkingstick:walkingstick-reinforced", "walkingstick:walkingstick-architect", "walkingstick:walkingstick-sling", "walkingstick:walkingstick-jonas", "walkingstick:walkingstick-fine", "walkingstick:walkingstick-blackguard", "walkingstick:walkingstick-forlorn", "walkingstick:walkingstick-gas", "walkingstick:walkingstick-pathfinder"],
+		"value": [
+			"walkingstick:walkingstick", 
+			"walkingstick:walkingstick-lantern-*", 
+			"walkingstick:walkingstick-cowskull", 
+			"walkingstick:walkingstick-crude", 
+			"walkingstick:walkingstick-blackthorn", 
+			"walkingstick:walkingstick-shepherds", 
+			"walkingstick:walkingstick-reinforced", 
+			"walkingstick:walkingstick-architect", 
+			"walkingstick:walkingstick-sling", 
+			"walkingstick:walkingstick-jonas", 
+			"walkingstick:walkingstick-fine", 
+			"walkingstick:walkingstick-blackguard", 
+			"walkingstick:walkingstick-forlorn", 
+			"walkingstick:walkingstick-gas", 
+			"walkingstick:walkingstick-pathfinder",
+			"walkingstick:walkingstick-gun-sheathed",
+			"walkingstick:walkingstick-sheathed"
+		],
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	},
     {

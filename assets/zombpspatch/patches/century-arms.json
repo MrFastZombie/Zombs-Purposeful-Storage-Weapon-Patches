@@ -44,7 +44,7 @@
 		"op": "addmerge", 
 		"path": "/CollectibleCodes",
 		"side": "server",
-		"value": ["centuryarms:firearm-mannlicherrevolver-*"],
+		"value": ["centuryarms:firearm-mannlicher-*"],
 		"dependsOn": [ { "modid": "centuryarms" } ]
 	},
     {
