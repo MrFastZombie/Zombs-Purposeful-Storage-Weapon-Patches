@@ -8,6 +8,48 @@
 	},
 	{
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "remove", 
+		"path": "/game:spear-generic-granite",
+		"side": "server",
+		"dependsOn": [ { "modid": "combatoverhaul", "invert": "true" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "remove", 
+		"path": "/game:spear-generic-andesite",
+		"side": "server",
+		"dependsOn": [ { "modid": "combatoverhaul", "invert": "true" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "remove", 
+		"path": "/game:spear-generic-basalt",
+		"side": "server",
+		"dependsOn": [ { "modid": "combatoverhaul", "invert": "true" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "remove", 
+		"path": "/game:spear-generic-obsidian",
+		"side": "server",
+		"dependsOn": [ { "modid": "combatoverhaul", "invert": "true" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "remove", 
+		"path": "/game:spear-generic-peridotite",
+		"side": "server",
+		"dependsOn": [ { "modid": "combatoverhaul", "invert": "true" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "remove", 
+		"path": "/game:spear-generic-flint",
+		"side": "server",
+		"dependsOn": [ { "modid": "combatoverhaul", "invert": "true" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
 		"op": "addmerge", 
 		"path": "/game:spear-generic-chert",
 		"side": "server",
