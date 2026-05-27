@@ -1,0 +1,32 @@
+[
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "replace", 
+		"path": "/game:spear-generic-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 1.2, "y": -0.03, "z": 0.04 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scale": 0.825 },
+		"dependsOn": [ { "modid": "combatoverhaul", "invert": "true" }]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "replace", 
+		"path": "/game:spear-boar-ruined",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 1.2, "y": 0.01, "z": 0.04 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scale": 0.85 }
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "replace", 
+		"path": "/game:spear-voulge-ruined",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 1.3, "y": 0.01, "z": 0.04 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scale": 0.85 }
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "replace", 
+		"path": "/game:spear-scrap-scrap",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.9, "y": -0.001, "z": 0.02 }, "rotation": { "x": 0, "y": -1, "z": -0.009 }, "scale": 0.85 },
+		"dependsOn": [ { "modid": "combatoverhaul", "invert": "true" }]
+	}
+]
