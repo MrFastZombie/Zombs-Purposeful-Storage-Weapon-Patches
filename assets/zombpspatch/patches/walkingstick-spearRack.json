@@ -1,5 +1,27 @@
 [
     {
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": [
+			"walkingstick:walkingstick",
+			"walkingstick:walkingstick-reinforced",
+			"walkingstick:walkingstick-blackthorn",
+			"walkingstick:walkingstick-shepherds",
+			"walkingstick:walkingstick-architect",
+			"walkingstick:walkingstick-sling",
+			"walkingstick:walkingstick-blackguard",
+			"walkingstick:walkingstick-forlorn",
+			"walkingstick:walkingstick-fine",
+			"walkingstick:walkingstick-sheath",
+			"walkingstick:walkingstick-sheathed",
+			"walkingstick:walkingstick-gun-sheath",
+			"walkingstick:walkingstick-gun-sheathed"
+		],
+		"dependsOn": [ { "modid": "walkingstick" } ]
+	},
+	{
 		"file": "walkingstick:itemtypes/tool/walkingsticks/walkingstick",
 		"op": "addmerge", 
 		"path": "/attributes/psGroup",
@@ -55,76 +77,60 @@
 		"value": "spear",
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	},
-    {
-		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+	{
+		"file": "walkingstick:itemtypes/tool/walkingsticks/walkingstick-sling",
 		"op": "addmerge", 
-		"path": "/CollectibleCodes",
+		"path": "/attributes/psGroup",
 		"side": "server",
-		"value": ["walkingstick:walkingstick"],
-		"dependsOn": [ { "modid": "walkingstick" } ]
-	},
-    {
-		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
-		"op": "addmerge", 
-		"path": "/CollectibleCodes",
-		"side": "server",
-		"value": ["walkingstick:walkingstick-reinforced"],
+		"value": "spear",
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	},
 	{
-		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"file": "walkingstick:itemtypes/tool/walkingsticks/walkingstick-fine",
 		"op": "addmerge", 
-		"path": "/CollectibleCodes",
+		"path": "/attributes/psGroup",
 		"side": "server",
-		"value": ["walkingstick:walkingstick-blackthorn"],
-		"dependsOn": [ { "modid": "walkingstick" } ]
-	},
-    {
-		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
-		"op": "addmerge", 
-		"path": "/CollectibleCodes",
-		"side": "server",
-		"value": ["walkingstick:walkingstick-shepherds"],
+		"value": "spear",
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	},
 	{
-		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"file": "walkingstick:itemtypes/tool/walkingsticks/walkingstick-architect",
 		"op": "addmerge", 
-		"path": "/CollectibleCodes",
+		"path": "/attributes/psGroup",
 		"side": "server",
-		"value": ["walkingstick:walkingstick-architect"],
+		"value": "spear",
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	},
 	{
-		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"file": "walkingstick:itemtypes/tool/walkingsticks/walkingstick-gun-sheath",
 		"op": "addmerge", 
-		"path": "/CollectibleCodes",
+		"path": "/attributes/psGroup",
 		"side": "server",
-		"value": ["walkingstick:walkingstick-sling"],
+		"value": "spear",
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	},
 	{
-		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"file": "walkingstick:itemtypes/tool/walkingsticks/walkingstick-gun-sheathed",
 		"op": "addmerge", 
-		"path": "/CollectibleCodes",
+		"path": "/attributes/psGroup",
 		"side": "server",
-		"value": ["walkingstick:walkingstick-blackguard"],
+		"value": "spear",
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	},
 	{
-		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"file": "walkingstick:itemtypes/tool/walkingsticks/walkingstick-sheath",
 		"op": "addmerge", 
-		"path": "/CollectibleCodes",
+		"path": "/attributes/psGroup",
 		"side": "server",
-		"value": ["walkingstick:walkingstick-forlorn"],
+		"value": "spear",
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	},
 	{
-		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"file": "walkingstick:itemtypes/tool/walkingsticks/walkingstick-sheathed",
 		"op": "addmerge", 
-		"path": "/CollectibleCodes",
+		"path": "/attributes/psGroup",
 		"side": "server",
-		"value": ["walkingstick:walkingstick-fine"],
+		"value": "spear",
 		"dependsOn": [ { "modid": "walkingstick" } ]
 	},
     {
