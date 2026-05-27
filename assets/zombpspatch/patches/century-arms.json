@@ -50,9 +50,9 @@
     {
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
 		"op": "addmerge", 
-		"path": "/centuryarms:firearm-mannlicherrevolver-*",
+		"path": "/centuryarms:firearm-mannlicher-*",
 		"side": "server",
-		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.41, "y": -0, "z": 0.5 }, "rotation": { "x": -5, "y": -89, "z": 70 }, "scale": 0.81 },
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.41, "y": 0.09, "z": 0.49 }, "rotation": { "x": -5, "y": -89, "z": 70 }, "scale": 0.81 },
 		"dependsOn": [ { "modid": "centuryarms" } ]
 	},
     {
@@ -60,7 +60,7 @@
 		"op": "addmerge", 
 		"path": "/centuryarms:firearm-win1910-*",
 		"side": "server",
-		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.15, "y": -0, "z": 0.5 }, "rotation": { "x": -5, "y": -92, "z": 70 }, "scale": 0.81 },
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.15, "y": 0.09, "z": 0.49 }, "rotation": { "x": -5, "y": -92, "z": 70 }, "scale": 0.81 },
 		"dependsOn": [ { "modid": "centuryarms" } ]
 	}
 ]

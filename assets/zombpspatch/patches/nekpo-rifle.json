@@ -36,7 +36,7 @@
 		"op": "addmerge", 
 		"path": "/nekporifle:firearm-nekpo-*",
 		"side": "server",
-		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.15, "y": -0, "z": 0.5 }, "rotation": { "x": 13, "y": -95, "z": 70 }, "scale": 0.81 },
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.15, "y": 0.09, "z": 0.5 }, "rotation": { "x": -6, "y": -95, "z": 70 }, "scale": 0.81 },
 		"dependsOn": [ { "modid": "nekporifle" } ]
 	}
 ]
