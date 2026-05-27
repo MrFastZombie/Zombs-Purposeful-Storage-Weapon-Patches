@@ -36,7 +36,7 @@
 		"op": "addmerge", 
 		"path": "/mannyfergusonrifle:firearm-ferguson-*",
 		"side": "server",
-		"value": { "origin": { "x": 0, "y": 0, "z": 0}, "translation": { "x": -0.34, "y": 0.07, "z": 0.52 }, "rotation": { "x": 0, "y": -90, "z": 0 }, "scale": 0.81 },
+		"value": { "origin": { "x": 0, "y": 0, "z": 0}, "translation": { "x": -0.34, "y": 0.07, "z": 0.547 }, "rotation": { "x": -60, "y": -90, "z": 0 }, "scale": 0.81 },
 		"dependsOn": [ { "modid": "mannyfergusonrifle" } ]
 	}
 ]
