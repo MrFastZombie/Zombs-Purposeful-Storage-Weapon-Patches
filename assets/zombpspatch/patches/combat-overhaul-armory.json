@@ -18,9 +18,17 @@
     {
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
 		"op": "addmerge",
+		"path": "/armory:halberd-plain-iron",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0.5 }, "translation": { "x": 1.15, "y": 0, "z": 0.1 }, "rotation": { "x": -45, "y": 0, "z": 0 }, "scale": 0.8 },
+		"dependsOn": [ { "modid": "armory" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge",
 		"path": "/armory:halberd-*",
 		"side": "server",
-		"value": { "origin": { "x": 0.5, "y": 0.5, "z": 0.5 }, "translation": { "x": 1, "y": 0, "z": 0.015 }, "rotation": { "x": -15, "y": 0, "z": 0 }, "scale": 0.8 },
+		"value": { "origin": { "x": 0, "y": 0, "z": 0.5 }, "translation": { "x": 1.15, "y": -0.03, "z": 0.17 }, "rotation": { "x": -45, "y": 0, "z": 0 }, "scale": 0.8 },
 		"dependsOn": [ { "modid": "armory" } ]
 	},
 	{
@@ -28,7 +36,15 @@
 		"op": "addmerge",
 		"path": "/armory:quarterstaff-*",
 		"side": "server",
-		"value": { "origin": { "x": 0.5, "y": 0.5, "z": 0.5 }, "translation": { "x": 1.1, "y": 0, "z": 0.12 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.8 },
+		"value": { "origin": { "x": 0.5, "y": 0.5, "z": 0.5 }, "translation": { "x": 1.2, "y": -0.1, "z": 0.09 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.8 },
+		"dependsOn": [ { "modid": "armory" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "replace",
+		"path": "/armory:pike-plain-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 2.45, "y": -0.05, "z": 0.26 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scaleXYZ": { "x": 0.785, "y": 0.85, "z": 0.85 } },
 		"dependsOn": [ { "modid": "armory" } ]
 	},
 	{
@@ -36,13 +52,13 @@
 		"op": "addmerge",
 		"path": "/CollectibleCodes",
 		"side": "server",
-		"value": ["armory:pike-*"],
+		"value": ["armory:pike-plain-*"],
 		"dependsOn": [ { "modid": "armory" } ]
 	},
 	{
 		"file": "purposefulstorage:config/transformations/weapons/longweapons",
 		"op": "addmerge",
-		"path": "/armory:pike-*",
+		"path": "/armory:pike-plain-*",
 		"side": "server",
 		"value": { "origin": { "x": 0.5, "y": 0.5, "z": 0.5 }, "translation": { "x": 2.8, "y": -0.09, "z": -0.02 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.8 },
 		"dependsOn": [ { "modid": "armory" } ]
