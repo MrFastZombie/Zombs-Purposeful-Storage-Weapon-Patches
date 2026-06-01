@@ -72,6 +72,14 @@
 		"dependsOn": [ { "modid": "mannyrevolvermusket" } ]
 	},
 	{
+		"file": "purposefulstorage:config/restrictions/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["extrafirearms:firearm-tanegashimamusket-*"],
+		"dependsOn": [ { "modid": "mannytanegashimamusket" } ]
+	},
+	{
 		"file": "purposefulstorage:config/transformations/weapons/longweapons",
 		"op": "addmerge", 
 		"path": "/extrafirearms:firearm-musket-*",
@@ -142,5 +150,13 @@
 		"side": "server",
 		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": 0.55, "y": 0.02, "z": 0.5 }, "rotation": { "x": 90, "y": -93, "z": 94 }, "scale": 0.81 },
 		"dependsOn": [ { "modid": "mannyrevolvermusket" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/extrafirearms:firearm-tanegashimamusket-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": 0.57, "y": -0.03, "z": 0.52 }, "rotation": { "x": 0, "y": -90, "z": -5 }, "scale": 0.81 },
+		"dependsOn": [ { "modid": "mannytanegashimamusket" } ]
 	}
 ]
