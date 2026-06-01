@@ -144,6 +144,14 @@
 		"dependsOn": [ { "modid": "mannytanegashimaarquebus" } ]
 	},
 	{
+		"file": "extrafirearms:itemtypes/firearms/musket-tanegashima",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "firearm",
+		"dependsOn": [ { "modid": "mannytanegashimamusket" } ]
+	},
+	{
 		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
 		"op": "addmerge", 
 		"path": "/CollectibleCodes",
@@ -280,6 +288,14 @@
 		"dependsOn": [ { "modid": "mannytanegashimaarquebus" } ]
 	},
 	{
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["extrafirearms:firearm-tanegashimamusket*"],
+		"dependsOn": [ { "modid": "mannytanegashimamusket" } ]
+	},
+	{
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
 		"op": "addmerge", 
 		"path": "/extrafirearms:firearm-carbine-*",
@@ -326,6 +342,14 @@
 		"side": "server",
 		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.57, "y": 0.09, "z": 0.435 }, "rotation": { "x": -45, "y": -90, "z": 20 }, "scale": 0.825 },
 		"dependsOn": [ { "modid": "mannytanegashimaarquebus" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/extrafirearms:firearm-tanegashimamusket-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.6, "y": 0.05, "z": 0.52 }, "rotation": { "x": -45, "y": -90, "z": 20 }, "scale": 0.81 },
+		"dependsOn": [ { "modid": "mannytanegashimamusket" } ]
 	},
 	{
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
