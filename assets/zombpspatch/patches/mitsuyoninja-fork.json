@@ -1,0 +1,178 @@
+[
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["mitsuyoninja:yari-su-*"],
+		"dependsOn": [ { "modid": "mitsuyoninjafork" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/mitsuyoninja:yari-su-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0.5 }, "translation": { "x": 2.21, "y": -0.1, "z": 0.25 }, "rotation": { "x": 0, "y": -2, "z": 0 }, "scale": 0.85 },
+		"dependsOn": [ { "modid": "mitsuyoninjafork" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/swordpedestal",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["mitsuyoninja:tachi-*"],
+		"dependsOn": [ { "modid": "mitsuyoninjafork" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/swordpedestal",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["mitsuyoninja:tanto-*"],
+		"dependsOn": [ { "modid": "mitsuyoninjafork" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/swordpedestal",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["mitsuyoninja:tsurugi-*"],
+		"dependsOn": [ { "modid": "mitsuyoninjafork" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordpedestal",
+		"op": "addmerge", 
+		"path": "/mitsuyoninja:tachi-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.20, "y": 0.36, "z": 0.35 }, "rotation": { "x": 90, "y": 0, "z": 0 }, "scale": 0.65 },
+		"dependsOn": [ { "modid": "mitsuyoninjafork" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordpedestal",
+		"op": "addmerge", 
+		"path": "/mitsuyoninja:tsurugi-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0.5, "z": 0.5 }, "translation": { "x": -0.3, "y": -0.5, "z": -0.33 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scale": 0.88 },
+		"dependsOn": [ { "modid": "mitsuyoninjafork" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordpedestal",
+		"op": "addmerge", 
+		"path": "/mitsuyoninja:tanto-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0.5, "z": 0.5 }, "translation": { "x": 0.2, "y": -0.49, "z": 0.26 }, "rotation": { "x": 90, "y": 0, "z": 0 }, "scale": 1},
+		"dependsOn": [ { "modid": "mitsuyoninjafork" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["mitsuyoninja:naginata-*"],
+		"dependsOn": [ { "modid": "mitsuyoninjafork" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["mitsuyoninja:yari-su-*"],
+		"dependsOn": [ { "modid": "mitsuyoninjafork" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["mitsuyoninja:yari-jumonji-*"],
+		"dependsOn": [ { "modid": "mitsuyoninjafork" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["mitsuyoninja:yari-bishamon-*"],
+		"dependsOn": [ { "modid": "mitsuyoninjafork" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["mitsuyoninja:tetsubou-*"],
+		"dependsOn": [ { "modid": "mitsuyoninjafork" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/mitsuyoninja:naginata-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0.5, "z": 0.5 }, "translation": { "x": 1.03, "y": -0.51, "z": 0.16 }, "rotation": { "x": 98, "y": 1, "z": 0 }, "scale": 0.7 },
+		"dependsOn": [ { "modid": "mitsuyoninjafork" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/mitsuyoninja:yari-su-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0.5, "z": 0.5 }, "translation": { "x": 2.1, "y": -0.095, "z": 0.0 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.85 },
+		"dependsOn": [ { "modid": "mitsuyoninjafork" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/mitsuyoninja:yari-jumonji-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0.5, "z": 0.5 }, "translation": { "x": 2.1, "y": -0.095, "z": 0.0 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.85 },
+		"dependsOn": [ { "modid": "mitsuyoninjafork" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/mitsuyoninja:tetsubou-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0.5, "z": 0.5 }, "translation": { "x": 0.92, "y": -0.27, "z": 0.0 }, "rotation": { "x": 0, "y": 0, "z": 2 }, "scale": 0.6 },
+		"dependsOn": [ { "modid": "mitsuyoninjafork" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/mitsuyoninja:yari-bishamon-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0.5, "z": 0.5 }, "translation": { "x": 1.9, "y": -0.29, "z": 0.35 }, "rotation": { "x": 62, "y": 0, "z": 0 }, "scale": 0.85 },
+		"dependsOn": [ { "modid": "mitsuyoninjafork" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/swordplaque",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["mitsuyoninja:tsurugi-*", "mitsuyoninja:tachi-*", "mitsuyoninja:tanto-*"],
+		"dependsOn": [ { "modid": "mitsuyoninjafork" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordplaque",
+		"op": "addmerge", 
+		"path": "/mitsuyoninja:tsurugi-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0.5, "z": 0.5 }, "translation": { "x": -0.28, "y": -0.5, "z": -0.33 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scale": 0.88 },
+		"dependsOn": [ { "modid": "mitsuyoninjafork" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordplaque",
+		"op": "addmerge", 
+		"path": "/mitsuyoninja:tachi-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0.5, "z": 0.5 }, "translation": { "x": -0.2, "y": -0.5, "z": -0.16 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scale": 0.63 },
+		"dependsOn": [ { "modid": "mitsuyoninjafork" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordplaque",
+		"op": "addmerge", 
+		"path": "/mitsuyoninja:tanto-*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0.5, "z": 0.5 }, "translation": { "x": -0.5, "y": -0.5, "z": -0.23 }, "rotation": { "x": -90, "y": 0, "z": 0 }},
+		"dependsOn": [ { "modid": "mitsuyoninjafork" } ]
+	}
+]
