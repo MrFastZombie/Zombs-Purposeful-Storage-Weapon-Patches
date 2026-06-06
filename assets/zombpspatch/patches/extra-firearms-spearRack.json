@@ -152,6 +152,14 @@
 		"dependsOn": [ { "modid": "mannytanegashimamusket" } ]
 	},
 	{
+		"file": "extrafirearms:itemtypes/firearms/squirrel-musket",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "firearm",
+		"dependsOn": [ { "modid": "mannysquirrelmusket" } ]
+	},
+	{
 		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
 		"op": "addmerge", 
 		"path": "/CollectibleCodes",
@@ -296,6 +304,14 @@
 		"dependsOn": [ { "modid": "mannytanegashimamusket" } ]
 	},
 	{
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["extrafirearms:firearm-squirrelmusket*"],
+		"dependsOn": [ { "modid": "mannysquirrelmusket" } ]
+	},
+	{
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
 		"op": "addmerge", 
 		"path": "/extrafirearms:firearm-carbine-*",
@@ -438,5 +454,13 @@
 		"side": "server",
 		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.435, "y": 0.05, "z": 0.6 }, "rotation": { "x": -45, "y": -88, "z": 43 }, "scale": 0.81 },
 		"dependsOn": [ { "modid": "mannyrevolvermusket" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/extrafirearms:firearm-squirrelmusket*",
+		"side": "server",
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.39, "y": 0.05, "z": 0.528 }, "rotation": { "x": -45, "y": -90, "z": 20 }, "scale": 0.81 },
+		"dependsOn": [ { "modid": "mannysquirrelmusket" } ]
 	}
 ]
