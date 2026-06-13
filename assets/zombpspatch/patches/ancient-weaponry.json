@@ -1,0 +1,90 @@
+[
+    {
+		"file": "ancientweaponry:itemtypes/tool/weapon/hasta",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "spear",
+		"dependsOn": [ { "modid": "ancientweaponry" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["ancientweaponry:hasta-*"],
+		"dependsOn": [ { "modid": "ancientweaponry" } ]
+	},
+	{
+		"file": "purposefulstorage:config/restrictions/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["ancientweaponry:hasta-*"],
+		"dependsOn": [ { "modid": "ancientweaponry" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/swordpedestal",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["ancientweaponry:zweihander-*", "ancientweaponry:cutlass-*"],
+		"dependsOn": [ { "modid": "ancientweaponry" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/swordplaque",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["ancientweaponry:zweihander-*", "ancientweaponry:cutlass-*"],
+		"dependsOn": [ { "modid": "ancientweaponry" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/ancientweaponry:hasta-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": -0.13, "y": 0, "z": 0.04 }, "scaleXYZ": { "x": 0.8, "y": 0.8, "z": 0.8 } },
+		"dependsOn": [ { "modid": "ancientweaponry" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/ancientweaponry:hasta-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.87, "y": -0.04, "z": 0 }, "rotation": { "x": 0, "y": 0, "z": -0.009 }, "scaleXYZ": { "x": 0.8, "y": 0.8, "z": 0.8 } },
+		"dependsOn": [ { "modid": "ancientweaponry" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordpedestal",
+		"op": "addmerge", 
+		"path": "/ancientweaponry:cutlass-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.12, "y": 0.05, "z": 0.04 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scaleXYZ": { "x": 0.8, "y": 0.8, "z": 0.8 } },
+		"dependsOn": [ { "modid": "ancientweaponry" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordpedestal",
+		"op": "addmerge", 
+		"path": "/ancientweaponry:zweihander-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.2, "y": 0.01, "z": 0.03 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scaleXYZ": { "x": 0.8, "y": 0.8, "z": 0.8 } },
+		"dependsOn": [ { "modid": "ancientweaponry" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordplaque",
+		"op": "addmerge", 
+		"path": "/ancientweaponry:cutlass-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": -0.3, "y": 0.01, "z": 0.03 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scaleXYZ": { "x": 0.8, "y": 0.8, "z": 0.8 } },
+		"dependsOn": [ { "modid": "ancientweaponry" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordplaque",
+		"op": "addmerge", 
+		"path": "/ancientweaponry:zweihander-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0.5, "z": 0.5 }, "translation": { "x": -0.1, "y": -0.487, "z": -0.37 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scaleXYZ": { "x": 0.8, "y": 0.8, "z": 0.8 } },
+		"dependsOn": [ { "modid": "ancientweaponry" } ]
+	}
+]
