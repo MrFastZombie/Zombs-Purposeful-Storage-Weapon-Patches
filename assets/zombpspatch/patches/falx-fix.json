@@ -1,0 +1,9 @@
+[
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordpedestal",
+		"op": "replace", 
+		"path": "/game:blade-falx-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.46, "y": -0.02, "z": -0.043 }, "rotation": { "x": 90, "y": 0, "z": 0 }, "scaleXYZ": { "x": 0.7, "y": 0.7, "z": 0.7 } }
+	}
+]

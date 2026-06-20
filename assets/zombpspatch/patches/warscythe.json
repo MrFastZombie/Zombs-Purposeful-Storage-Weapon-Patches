@@ -1,0 +1,18 @@
+[
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["warscythe:warscythe-*"],
+		"dependsOn": [ { "modid": "warscythe" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/warscythe:warscythe-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.87, "y": -0.03, "z": 0.04 }, "rotation": { "x": -88, "y": -0.005, "z": -0.009 }, "scaleXYZ": { "x": 0.9, "y": 0.825, "z": 0.825 } },
+		"dependsOn": [ { "modid": "warscythe" } ]
+	}
+]

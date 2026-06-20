@@ -4,7 +4,7 @@
   "name": "Zomb's Purposeful Storage weapons patches",
   "authors": ["MrFastZombie"],
   "description": "Patch mod that makes somem weapon mods work with Purposeful Storage.",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "dependencies": {
     "game" : "1.22.0",
     "purposefulstorage": "2.0.1"

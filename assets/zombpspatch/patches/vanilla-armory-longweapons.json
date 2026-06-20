@@ -28,7 +28,7 @@
 		"op": "addmerge", 
 		"path": "/vanillaarmory:blade-claymore-*",
 		"side": "server",
-		"value": { "translation": { "x": 0, "y": -0.18, "z": 0 }, "scale": 0.65 },
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0, "y": -0.01, "z": 0 }, "rotation": { "x": 0, "y": 0, "z": -0.58}, "scale": 0.63 },
 		"dependsOn": [ { "modid": "vanillaarmory" } ]
 	},
     {
@@ -77,14 +77,6 @@
 		"path": "/vanillaarmory:bow-yager",
 		"side": "server",
 		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.91, "y": 0.005, "z": 0 }, "scaleXYZ": { "x": 1.1, "y": 1, "z": 1 }, "rotation": { "x": 15, "y": 0, "z": 0 } },
-		"dependsOn": [ { "modid": "vanillaarmory" } ]
-	},
-	{
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
-		"op": "addmerge", 
-		"path": "/vanillaarmory:spear-generic-*",
-		"side": "server",
-		"value": { "translation": { "x": 1.2, "y": -0.12, "z": 0 }, "scale": 0.825 },
 		"dependsOn": [ { "modid": "vanillaarmory" } ]
 	}
 ]

@@ -78,5 +78,13 @@
 		"side": "server",
 		"value": "spear",
 		"dependsOn": [ { "modid": "armory" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/swordplaque",
+		"op": "addmerge", 
+		"path": "/armory:sword-arming-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": -0.5, "y": 0, "z": 0}, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.6 },
+		"dependsOn": [ { "modid": "armory" } ]
 	}
 ]
