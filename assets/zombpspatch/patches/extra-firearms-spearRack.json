@@ -101,7 +101,7 @@
 		"path": "/attributes/psGroup",
 		"side": "server",
 		"value": "firearm",
-		"dependsOn": [ { "modid": "mannyextrafirearms" } ]
+		"dependsOn": [ { "modid": "mannydoubleblunderbuss" } ]
 	},
 	{
 		"file": "extrafirearms:itemtypes/maltiez/blunderbuss",
