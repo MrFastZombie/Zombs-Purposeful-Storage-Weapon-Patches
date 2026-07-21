@@ -1,0 +1,94 @@
+[
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/swordpedestal",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": [ 
+            "uniqueweapons:uniqueweapons-shortsword-kumasclaw-*",
+            "uniqueweapons:uniqueweapons-longsword-fulgor-*",
+            "uniqueweapons:uniqueweapons-greatsword-bloodthirst-*",
+            "uniqueweapons:uniqueweapons-sabre-viola-*",
+            "uniqueweapons:uniqueweapons-falx-rusteater-*"
+        ],
+		"dependsOn": [ { "modid": "uniqueweapons" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordpedestal",
+		"op": "addmerge", 
+		"path": "/uniqueweapons:uniqueweapons-shortsword-kumasclaw-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": -0.2, "y": 0, "z": 0 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.6 },
+		"dependsOn": [ { "modid": "uniqueweapons" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordpedestal",
+		"op": "addmerge", 
+		"path": "/uniqueweapons:uniqueweapons-falx-rusteater-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.4, "y": 0, "z": -0.036 }, "rotation": { "x": 90, "y": 0, "z": 0 }, "scale": 0.6 },
+		"dependsOn": [ { "modid": "uniqueweapons" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordpedestal",
+		"op": "addmerge", 
+		"path": "/uniqueweapons:uniqueweapons-longsword-fulgor-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": -0.3, "y": 0, "z": 0 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.6 },
+		"dependsOn": [ { "modid": "uniqueweapons" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordpedestal",
+		"op": "addmerge", 
+		"path": "/uniqueweapons:uniqueweapons-greatsword-bloodthirst-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": -0.9, "y": 0, "z": 0 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.6 },
+		"dependsOn": [ { "modid": "uniqueweapons" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordpedestal",
+		"op": "addmerge", 
+		"path": "/uniqueweapons:*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0, "y": 0, "z": 0 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.6 },
+		"dependsOn": [ { "modid": "uniqueweapons" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/swordplaque",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": [ 
+            "uniqueweapons:uniqueweapons-shortsword-kumasclaw-*",
+            "uniqueweapons:uniqueweapons-longsword-fulgor-*",
+            "uniqueweapons:uniqueweapons-greatsword-bloodthirst-*",
+            "uniqueweapons:uniqueweapons-sabre-viola-*",
+            "uniqueweapons:uniqueweapons-falx-rusteater-*"
+        ],
+		"dependsOn": [ { "modid": "uniqueweapons" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordplaque",
+		"op": "addmerge", 
+		"path": "/uniqueweapons:uniqueweapons-sabre-viola-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": -0.55, "y": 0, "z": 0 }, "rotation": { "x": 180, "y": 0, "z": 0 }, "scale": 0.6 },
+		"dependsOn": [ { "modid": "uniqueweapons" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordplaque",
+		"op": "addmerge", 
+		"path": "/uniqueweapons:uniqueweapons-falx-rusteater-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": -0.4, "y": 0, "z": -0.04 }, "rotation": { "x": 90, "y": 0, "z": 0 }, "scale": 0.6 },
+		"dependsOn": [ { "modid": "uniqueweapons" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordplaque",
+		"op": "addmerge", 
+		"path": "/uniqueweapons:*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": -0.55, "y": 0, "z": 0 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.6 },
+		"dependsOn": [ { "modid": "uniqueweapons" } ]
+	}
+]
