@@ -4,7 +4,7 @@
 		"op": "addmerge", 
 		"path": "/CollectibleCodes",
 		"side": "server",
-		"value": ["weaponpacka:naginata-*", "weaponpacka:throwingspear-*", "weaponpacka:polespear-*", "weaponpacka:trident-*", "weaponpacka:haleberd-*"],
+		"value": ["weaponpacka:naginata-*", "weaponpacka:throwingspear-*", "weaponpacka:polespear-*", "weaponpacka:haleberd-*"],
 		"dependsOn": [ { "modid": "weaponpackalphaunoff" } ]
 	},
     {
@@ -45,6 +45,38 @@
 		"path": "/weaponpacka:haleberd-*",
 		"side": "server",
 		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.06, "y": 0, "z": 0.06 }, "rotation": { "x": -33, "y": 0, "z": 0 }, "scale": 0.85 },
+		"dependsOn": [ { "modid": "weaponpackalphaunoff" } ]
+	},
+	{
+		"file": "weaponpacka:itemtypes/tool/naginata.json",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "spear",
+		"dependsOn": [ { "modid": "weaponpackalphaunoff" } ]
+	},
+	{
+		"file": "weaponpacka:itemtypes/tool/throwingspear.json",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "javelin",
+		"dependsOn": [ { "modid": "weaponpackalphaunoff" } ]
+	},
+	{
+		"file": "weaponpacka:itemtypes/tool/heavyspear.json",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "spear",
+		"dependsOn": [ { "modid": "weaponpackalphaunoff" } ]
+	},
+	{
+		"file": "weaponpacka:itemtypes/tool/haleberd.json",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "spear",
 		"dependsOn": [ { "modid": "weaponpackalphaunoff" } ]
 	}
 ]
