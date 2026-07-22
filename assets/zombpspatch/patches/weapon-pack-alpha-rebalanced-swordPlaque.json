@@ -1,0 +1,92 @@
+[
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/swordplaque",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": [ 
+            "weaponpacka:thrustingsword-*-rapier",
+            "weaponpacka:handsword-*-arming",
+            "weaponpacka:khopesh-*",
+            "weaponpacka:thrustingsword-*-estoc",
+            "weaponpacka:handsword-*-spatha",
+            "weaponpacka:machete-*",
+            "weaponpacka:bastardsword-*",
+            "weaponpacka:tachi-*"
+
+        ],
+		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordplaque",
+		"op": "addmerge", 
+		"path": "/weaponpacka:thrustingsword-*-rapier",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": -0.1, "y": 0.01, "z": 0.025 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scale": 0.85 },
+		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordplaque",
+		"op": "addmerge", 
+		"path": "/weaponpacka:handsword-*-arming",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": -0.3, "y": 0, "z": 0.05 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scale": 0.85 },
+		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordplaque",
+		"op": "addmerge", 
+		"path": "/weaponpacka:khopesh-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": -0.3, "y": 0.07, "z": 0.02 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scale": 0.85 },
+		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordplaque",
+		"op": "addmerge", 
+		"path": "/weaponpacka:handsword-*-spatha",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": -0.3, "y": 0, "z": 0.03 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scale": 0.75 },
+		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordplaque",
+		"op": "addmerge", 
+		"path": "/weaponpacka:bastardsword-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": -0.1, "y": 0, "z": 0.02 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scale": 0.95 },
+		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordplaque",
+		"op": "addmerge", 
+		"path": "/weaponpacka:thrustingsword-*-estoc",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": -0.2, "y": 0, "z": 0.03 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scale": 0.95 },
+		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordplaque",
+		"op": "addmerge", 
+		"path": "/weaponpacka:machete-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": -0.4, "y": 0, "z": 0.05 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scale": 0.95 },
+		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordplaque",
+		"op": "addmerge", 
+		"path": "/weaponpacka:tachi-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": -0.2, "y": 0, "z": 0.03 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scale": 0.88 },
+		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordplaque",
+		"op": "addmerge", 
+		"path": "/weaponpacka:*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": -0.3, "y": 0, "z": 0.05 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scale": 0.85 },
+		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
+	}
+]

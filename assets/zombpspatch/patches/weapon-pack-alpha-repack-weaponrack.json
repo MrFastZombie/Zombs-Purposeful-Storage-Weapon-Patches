@@ -1,0 +1,57 @@
+[
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": [
+            "weaponpacka:naginata-*", 
+            "weaponpacka:polespear-*", 
+            "weaponpacka:trident-*", 
+            "weaponpacka:haleberd-*",
+            "weaponpacka:bastardsword-*",
+            "weaponpacka:thrustingsword-*-estoc"
+        ],
+		"dependsOn": [ { "modid": "weaponpackalphaunoff" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/weaponpacka:haleberd-*-regul",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 1.18, "y": -0.027, "z": 0 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.85 },
+		"dependsOn": [ { "modid": "weaponpackalphaunoff" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/weaponpacka:haleberd-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 1.3, "y": -0.02, "z": 0 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.85 },
+		"dependsOn": [ { "modid": "weaponpackalphaunoff" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/weaponpacka:bastardsword-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.7, "y": 0.02, "z": 0 }, "rotation": { "x": -92, "y": 0, "z": 0 }, "scale": 0.95 },
+		"dependsOn": [ { "modid": "weaponpackalphaunoff" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/weaponpacka:thrustingsword-*-estoc",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.7, "y": 0, "z": 0 }, "rotation": { "x": -95, "y": 1, "z": 0 }, "scale": 0.95 },
+		"dependsOn": [ { "modid": "weaponpackalphaunoff" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/weaponpacka:*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 1.3, "y": -0.02, "z": 0 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.85 },
+		"dependsOn": [ { "modid": "weaponpackalphaunoff" } ]
+	}
+]
