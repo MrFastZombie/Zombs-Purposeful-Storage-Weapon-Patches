@@ -1,0 +1,42 @@
+[
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordplaque",
+		"op": "replace", 
+		"path": "/game:blade-falx-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": -0.4, "y": 0, "z": -0.05 }, "rotation": { "x": 90, "y": 0, "z": 0 }, "scale": 0.88 },
+		"dependsOn": [ { "modid": "falxtokatana01" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordpedestal",
+		"op": "replace", 
+		"path": "/game:blade-falx-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.25, "y": 0.013, "z": -0.054 }, "rotation": { "x": 90, "y": 0, "z": 0 }, "scale": 0.88 },
+		"dependsOn": [ { "modid": "falxtokatana01" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordplaque",
+		"op": "replace", 
+		"path": "/game:blade-falx-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": -0.4, "y": 0, "z": -0.05 }, "rotation": { "x": 90, "y": 0, "z": 0 }, "scale": 0.88 },
+		"dependsOn": [ { "modid": "falxtosword01" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordpedestal",
+		"op": "replace", 
+		"path": "/game:blade-falx-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.4, "y": 0.008, "z": -0.054 }, "rotation": { "x": 90, "y": 0, "z": 0 }, "scale": 0.88 },
+		"dependsOn": [ { "modid": "falxtosword01" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "replace", 
+		"path": "/game:bow-long",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.865, "y": 0.0185, "z": -0.1 }, "rotation": { "x": 10, "y": -6, "z": 0 }, "scalexyz": { "x": 1.1, "y": 1, "z": 1 } },
+		"dependsOn": [ { "modid": "longbowtoyumi01" } ]
+	}
+]
