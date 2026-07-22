@@ -12,7 +12,7 @@
 		"op": "addmerge", 
 		"path": "/katansmod:katana-normal-*",
 		"side": "server",
-		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.10, "y": 0.37, "z": 0.18 }, "rotation": { "x": 90, "y": 0, "z": 0 }, "scale": 0.65 },
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": 0.1, "y": 0.39, "z": 0.1375 }, "rotation": { "x": 90, "y": 0, "z": 0 }, "scale": 0.725 },
 		"dependsOn": [ { "modid": "katansmod" } ]
 	},
     {
@@ -28,7 +28,23 @@
 		"op": "addmerge", 
 		"path": "/katansmod:katana-normal-*",
 		"side": "server",
-		"value": { "translation": { "x": 0.75, "y": -0.47, "z": 0 }, "rotation": { "x": 90, "y": 2, "z": 0 }, "scale": 0.65 },
+		"value": { "translation": { "x": 0.75, "y": -0.469, "z": 0 }, "rotation": { "x": 90, "y": 2, "z": 0 }, "scale": 0.725 },
+		"dependsOn": [ { "modid": "katansmod" } ]
+	},
+	{
+		"file": "purposefulstorage:config/restrictions/weapons/swordplaque",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["katansmod:katana-normal-*"],
+		"dependsOn": [ { "modid": "katansmod" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/swordplaque",
+		"op": "addmerge", 
+		"path": "/katansmod:katana-normal-*",
+		"side": "server",
+		"value": { "translation": { "x": 0, "y": -0.5, "z": 0 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scale": 0.725 },
 		"dependsOn": [ { "modid": "katansmod" } ]
 	}
 ]

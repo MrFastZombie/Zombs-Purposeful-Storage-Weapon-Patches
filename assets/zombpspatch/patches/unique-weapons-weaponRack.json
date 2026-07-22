@@ -1,0 +1,91 @@
+[
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": [
+            "uniqueweapons:uniqueweapons-spear-leviathan-*",
+            "uniqueweapons:uniqueweapons-javelin-abyssaltooth-*",
+            "uniqueweapons:uniqueweapons-quarterstaff-stinkystick-*",
+            "uniqueweapons:uniqueweapons-halberd-cinder-*",
+            "uniqueweapons:uniqueweapons-longsword-fulgor-*",
+            "uniqueweapons:uniqueweapons-greatsword-bloodthirst-*",
+			"uniqueweapons:uniqueweapons-longbow-nipalan-*",
+			"uniqueweapons:uniqueweapons-recurvebow-elvenbowoftruth"
+        ],
+		"dependsOn": [ { "modid": "uniqueweapons" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/uniqueweapons:uniqueweapons-spear-leviathan-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 1.9, "y": 0, "z": 0 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.8 },
+		"dependsOn": [ { "modid": "uniqueweapons" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/uniqueweapons:uniqueweapons-greatsword-bloodthirst-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": -0.1, "y": 0, "z": 0 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.6 },
+		"dependsOn": [ { "modid": "uniqueweapons" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/uniqueweapons:uniqueweapons-quarterstaff-stinkystick-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 2, "y": 0, "z": 0 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.8 },
+		"dependsOn": [ { "modid": "uniqueweapons" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/uniqueweapons:uniqueweapons-halberd-cinder-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 2.15, "y": 0, "z": 0 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.8 },
+		"dependsOn": [ { "modid": "uniqueweapons" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/uniqueweapons:uniqueweapons-javelin-abyssaltooth-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 1.3, "y": 0, "z": 0 }, "rotation": { "x": 0, "y": 0, "z": 1 }, "scale": 0.8 },
+		"dependsOn": [ { "modid": "uniqueweapons" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/uniqueweapons:uniqueweapons-longsword-fulgor-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.3, "y": 0, "z": 0 }, "rotation": { "x": 11, "y": 0, "z": 0 }, "scale": 0.6 },
+		"dependsOn": [ { "modid": "uniqueweapons" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/uniqueweapons:uniqueweapons-longbow-nipalan-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.865, "y": 0.014, "z": -0.04 }, "scaleXYZ": { "x": 1.1, "y": 1, "z": 1 }, "rotation": { "x": 10, "y": 0, "z": 0 } },
+		"dependsOn": [ { "modid": "uniqueweapons" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/uniqueweapons:uniqueweapons-recurvebow-elvenbowoftruth",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.865, "y": 0.025, "z": -0.15 }, "scaleXYZ": { "x": 1.1, "y": 1, "z": 1 }, "rotation": { "x": 15, "y": 0, "z": 0 } },
+		"dependsOn": [ { "modid": "uniqueweapons" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"op": "addmerge", 
+		"path": "/uniqueweapons:*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 1.9, "y": 0, "z": 0 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.8 },
+		"dependsOn": [ { "modid": "uniqueweapons" } ]
+	}
+]

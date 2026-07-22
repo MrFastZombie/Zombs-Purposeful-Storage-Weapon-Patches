@@ -1,0 +1,42 @@
+[
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/swordplaque",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["vanillaarmory:blade-*"],
+		"dependsOn": [ { "modid": "vanillaarmoryc" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordplaque",
+		"op": "addmerge", 
+		"path": "/vanillaarmory:blade-arming-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": -0.6, "y": 0, "z": 0 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scale": 0.63 },
+		"dependsOn": [ { "modid": "vanillaarmoryc" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordplaque",
+		"op": "addmerge", 
+		"path": "/vanillaarmory:blade-gladius-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": -0.6, "y": 0, "z": 0 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scale": 0.63 },
+		"dependsOn": [ { "modid": "vanillaarmoryc" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordplaque",
+		"op": "addmerge", 
+		"path": "/vanillaarmory:blade-sabre-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": -0.6, "y": 0, "z": 0 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scale": 0.63 },
+		"dependsOn": [ { "modid": "vanillaarmoryc" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/swordplaque",
+		"op": "addmerge", 
+		"path": "/vanillaarmory:blade-claymore-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": -0.7, "y": 0, "z": 0 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scale": 0.63 },
+		"dependsOn": [ { "modid": "vanillaarmoryc" } ]
+	}
+]

@@ -1,0 +1,70 @@
+[
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": [
+            "uniqueweapons:uniqueweapons-spear-leviathan-*",
+            "uniqueweapons:uniqueweapons-javelin-abyssaltooth-*",
+            "uniqueweapons:uniqueweapons-quarterstaff-stinkystick-*"
+        ],
+		"dependsOn": [ { "modid": "uniqueweapons" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/uniqueweapons:uniqueweapons-quarterstaff-stinkystick-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 1.14, "y": 0, "z": 0.06 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.8 },
+		"dependsOn": [ { "modid": "uniqueweapons" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/uniqueweapons:uniqueweapons-javelin-abyssaltooth-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.14, "y": 0.05, "z": -0.05 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.8 },
+		"dependsOn": [ { "modid": "uniqueweapons" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/uniqueweapons:uniqueweapons-spear-leviathan-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 1, "y": 0, "z": 0.22 }, "rotation": { "x": -52, "y": 0, "z": 0 }, "scale": 0.8 },
+		"dependsOn": [ { "modid": "uniqueweapons" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/uniqueweapons:*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 1.14, "y": 0, "z": 0.06 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.8 },
+		"dependsOn": [ { "modid": "uniqueweapons" } ]
+	},
+    {
+		"file": "uniqueweapons:itemtypes/weapon/quarterstaff-stinkystick.json",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "spear",
+		"dependsOn": [ { "modid": "uniqueweapons" } ]
+	},
+    {
+		"file": "uniqueweapons:itemtypes/weapon/javelin-abyssaltooth.json",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "javelin",
+		"dependsOn": [ { "modid": "uniqueweapons" } ]
+	},
+    {
+		"file": "uniqueweapons:itemtypes/weapon/spear-leviathan.json",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "spear",
+		"dependsOn": [ { "modid": "uniqueweapons" } ]
+	}
+]

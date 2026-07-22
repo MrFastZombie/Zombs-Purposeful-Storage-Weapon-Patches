@@ -52,7 +52,7 @@
 		"op": "addmerge", 
 		"path": "/glockmaker:firearm-boltaction-*",
 		"side": "server",
-		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.33, "y": 0, "z": 0.5 }, "rotation": { "x": 12, "y": -89, "z": 128 }, "scale": 0.81 },
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.33, "y": 0.05, "z": 0.47 }, "rotation": { "x": 12, "y": -89, "z": 128 }, "scale": 0.81 },
 		"dependsOn": [ { "modid": "glockmaker" } ]
 	},
     {
@@ -60,7 +60,7 @@
 		"op": "addmerge", 
 		"path": "/glockmaker:firearm-leveraction-*",
 		"side": "server",
-		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.48, "y": 0, "z": 0.5 }, "rotation": { "x": 12, "y": -83, "z": 128 }, "scale": 0.81 },
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.48, "y": 0.05, "z": 0.485 }, "rotation": { "x": 12, "y": -83, "z": 128 }, "scale": 0.81 },
 		"dependsOn": [ { "modid": "glockmaker" } ]
 	},
     {
@@ -68,7 +68,7 @@
 		"op": "addmerge", 
 		"path": "/glockmaker:firearm-pumpaction-*",
 		"side": "server",
-		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.33, "y": 0, "z": 0.5 }, "rotation": { "x": 12, "y": -88, "z": 128 }, "scale": 0.81 },
+		"value": { "origin": { "x": 0, "y": 0, "z": 0 }, "translation": { "x": -0.33, "y": 0.05, "z": 0.49 }, "rotation": { "x": 12, "y": -88, "z": 128 }, "scale": 0.81 },
 		"dependsOn": [ { "modid": "glockmaker" } ]
 	}
 ]

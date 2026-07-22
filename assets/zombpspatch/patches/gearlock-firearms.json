@@ -1,0 +1,42 @@
+[
+    {
+		"file": "forgottenfirearms:itemtypes/tool/forgottenfirearms/gearlock-rifle.json",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "firearm",
+		"dependsOn": [ { "modid": "forgottenfirearms" } ]
+	},
+    {
+		"file": "forgottenfirearms:itemtypes/tool/forgottenfirearms/gearlock-doublebarrel.json",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "firearm",
+		"dependsOn": [ { "modid": "forgottenfirearms" } ]
+	},
+    {
+		"file": "purposefulstorage:config/restrictions/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/CollectibleCodes",
+		"side": "server",
+		"value": ["forgottenfirearms:gearlock-rifle", "forgottenfirearms:gearlock-doublebarrel"],
+		"dependsOn": [ { "modid": "forgottenfirearms" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/forgottenfirearms:gearlock-rifle",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": -0.44, "y": 0, "z": -0.12 }, "rotation": { "x": 21, "y": 0, "z": 0 }, "scale": 0.825 },
+		"dependsOn": [ { "modid": "forgottenfirearms" } ]
+	},
+    {
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/forgottenfirearms:gearlock-doublebarrel",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": -0.39, "y": 0, "z": -0.12 }, "rotation": { "x": 21, "y": 0, "z": 0 }, "scale": 0.825 },
+		"dependsOn": [ { "modid": "forgottenfirearms" } ]
+	}
+]
