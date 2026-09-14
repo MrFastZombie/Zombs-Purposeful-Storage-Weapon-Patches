@@ -64,7 +64,7 @@
 		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
 	},
 	{
-		"file": "weaponpacka:itemtypes/tool/heavyspear.json",
+		"file": "weaponpacka:itemtypes/tool/spontoon.json",
 		"op": "addmerge", 
 		"path": "/attributes/psGroup",
 		"side": "server",
