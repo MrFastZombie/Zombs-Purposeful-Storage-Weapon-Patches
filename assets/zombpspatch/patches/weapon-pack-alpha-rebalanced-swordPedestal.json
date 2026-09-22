@@ -5,14 +5,22 @@
 		"path": "/CollectibleCodes",
 		"side": "server",
 		"value": [ 
-            "weaponpacka:thrustingsword-*-rapier",
+            "weaponpacka:rapier-*-*",
             "weaponpacka:handsword-*-arming",
             "weaponpacka:khopesh-*",
-            "weaponpacka:thrustingsword-*-estoc",
+            "weaponpacka:estoc-*-*",
             "weaponpacka:handsword-*-spatha",
             "weaponpacka:machete-*",
             "weaponpacka:bastardsword-*",
-            "weaponpacka:tachi-*"
+            "weaponpacka:tachi-*",
+			"weaponpacka:handsword-*-infantry",
+			"weaponpacka:handsword-*-sidesword",
+			"weaponpacka:nodachi-*",
+			"weaponpacka:sabre-*",
+			"weaponpacka:claymore-*",
+			"weaponpacka:zweihander-*",
+			"weaponpacka:flamberge-*",
+			"weaponpacka:kukri-*"
 
         ],
 		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
@@ -20,7 +28,7 @@
     {
 		"file": "purposefulstorage:config/transformations/weapons/swordpedestal",
 		"op": "addmerge", 
-		"path": "/weaponpacka:thrustingsword-*-rapier",
+		"path": "/weaponpacka:rapier-*-*",
 		"side": "server",
 		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.1, "y": 0.01, "z": 0.025 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scale": 0.85 },
 		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
@@ -31,6 +39,22 @@
 		"path": "/weaponpacka:handsword-*-arming",
 		"side": "server",
 		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.1, "y": 0, "z": 0.05 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scale": 0.85 },
+		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/swordpedestal",
+		"op": "addmerge", 
+		"path": "/weaponpacka:handsword-*-infantry",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.2, "y": 0.006, "z": 0.021 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scale": 0.95 },
+		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/swordpedestal",
+		"op": "addmerge", 
+		"path": "/weaponpacka:handsword-*-sidesword",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0, "y": 0.002, "z": 0.045 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scale": 0.74 },
 		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
 	},
     {
@@ -60,7 +84,7 @@
     {
 		"file": "purposefulstorage:config/transformations/weapons/swordpedestal",
 		"op": "addmerge", 
-		"path": "/weaponpacka:thrustingsword-*-estoc",
+		"path": "/weaponpacka:estoc-*-*",
 		"side": "server",
 		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.1, "y": 0, "z": 0.025 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scale": 0.95 },
 		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
@@ -73,12 +97,68 @@
 		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.3, "y": 0.005, "z": 0.06 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scale": 0.95 },
 		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
 	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/swordpedestal",
+		"op": "addmerge", 
+		"path": "/weaponpacka:tachi-*-katana",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.5, "y": 0.405, "z": 0.015 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scale": 0.88 },
+		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
+	},
     {
 		"file": "purposefulstorage:config/transformations/weapons/swordpedestal",
 		"op": "addmerge", 
 		"path": "/weaponpacka:tachi-*",
 		"side": "server",
 		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.5, "y": -0.02, "z": 0.028 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scale": 0.88 },
+		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/swordpedestal",
+		"op": "addmerge", 
+		"path": "/weaponpacka:claymore-*-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": -0.6, "y": -0.004, "z": 0.0525 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scale": 0.8 },
+		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/swordpedestal",
+		"op": "addmerge", 
+		"path": "/weaponpacka:sabre-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.4, "y": 0, "z": 0.05 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scale": 1.25 },
+		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/swordpedestal",
+		"op": "addmerge", 
+		"path": "/weaponpacka:nodachi-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.1, "y": -0.03, "z": 0.025 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scale": 0.88 },
+		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/swordpedestal",
+		"op": "addmerge", 
+		"path": "/weaponpacka:kukri-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.35, "y": 0.01, "z": 0.109 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": 0.85 },
+		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/swordpedestal",
+		"op": "addmerge", 
+		"path": "/weaponpacka:zweihander-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": -1, "y": 0.02, "z": 0.04 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scale": 0.65 },
+		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/swordpedestal",
+		"op": "addmerge", 
+		"path": "/weaponpacka:flamberge-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": -1, "y": 0, "z": 0.041 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scale": 0.65 },
 		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
 	},
     {

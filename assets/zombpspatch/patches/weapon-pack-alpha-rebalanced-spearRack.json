@@ -4,7 +4,14 @@
 		"op": "addmerge", 
 		"path": "/CollectibleCodes",
 		"side": "server",
-		"value": ["weaponpacka:naginata-*", "weaponpacka:throwingspear-*", "weaponpacka:polespear-*", "weaponpacka:haleberd-*"],
+		"value": [
+			"weaponpacka:naginata-*", 
+			"weaponpacka:throwingspear-*", 
+			"weaponpacka:polespear-*", 
+			"weaponpacka:haleberd-*",
+			"weaponpacka:heavyspear-*",
+			"weaponpacka:warscythe-*"
+		],
 		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
 	},
     {
@@ -21,6 +28,14 @@
 		"path": "/weaponpacka:polespear-*",
 		"side": "server",
 		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.2, "y": -0.01, "z": 0.02 }, "rotation": { "x": -34, "y": 0, "z": 0 }, "scale": 0.85 },
+		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/weaponpacka:heavyspear-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.63, "y": -0.01, "z": 0.22 }, "rotation": { "x": -34, "y": 0, "z": 0 }, "scale": 1 },
 		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
 	},
     {
@@ -45,6 +60,14 @@
 		"path": "/weaponpacka:haleberd-*",
 		"side": "server",
 		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.06, "y": 0, "z": 0.06 }, "rotation": { "x": -33, "y": 0, "z": 0 }, "scale": 0.85 },
+		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
+	},
+	{
+		"file": "purposefulstorage:config/transformations/weapons/spearrack",
+		"op": "addmerge", 
+		"path": "/weaponpacka:warscythe-*",
+		"side": "server",
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.32, "y": 0.05, "z": 0.09 }, "rotation": { "x": -54, "y": 0, "z": 0 }, "scale": 0.8 },
 		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
 	},
 	{
@@ -73,6 +96,22 @@
 	},
 	{
 		"file": "weaponpacka:itemtypes/tool/haleberd.json",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "spear",
+		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
+	},
+	{
+		"file": "weaponpacka:itemtypes/tool/heavyspear.json",
+		"op": "addmerge", 
+		"path": "/attributes/psGroup",
+		"side": "server",
+		"value": "spear",
+		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
+	},
+	{
+		"file": "weaponpacka:itemtypes/tool/warscythe.json",
 		"op": "addmerge", 
 		"path": "/attributes/psGroup",
 		"side": "server",
