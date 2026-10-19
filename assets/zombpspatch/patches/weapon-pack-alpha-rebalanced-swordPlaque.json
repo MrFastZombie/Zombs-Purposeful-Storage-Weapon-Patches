@@ -102,7 +102,7 @@
 		"op": "addmerge", 
 		"path": "/weaponpacka:tachi-*-katana",
 		"side": "server",
-		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0, "y": 0.42, "z": 0.02 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scale": 0.88 },
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0, "y": -0.025, "z": 0.02 }, "rotation": { "x": -90, "y": 0, "z": 0 }, "scale": 0.88 },
 		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
 	},
     {
