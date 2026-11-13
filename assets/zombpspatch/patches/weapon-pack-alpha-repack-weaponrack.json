@@ -15,7 +15,7 @@
 		"dependsOn": [ { "modid": "weaponpackalphaunoff" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/weaponpacka:haleberd-*-regul",
 		"side": "server",
@@ -23,7 +23,7 @@
 		"dependsOn": [ { "modid": "weaponpackalphaunoff" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/weaponpacka:haleberd-*",
 		"side": "server",
@@ -31,7 +31,7 @@
 		"dependsOn": [ { "modid": "weaponpackalphaunoff" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/weaponpacka:bastardsword-*",
 		"side": "server",
@@ -39,7 +39,7 @@
 		"dependsOn": [ { "modid": "weaponpackalphaunoff" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/weaponpacka:thrustingsword-*-estoc",
 		"side": "server",
@@ -47,7 +47,7 @@
 		"dependsOn": [ { "modid": "weaponpackalphaunoff" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/weaponpacka:*",
 		"side": "server",

@@ -75,7 +75,7 @@
 		"dependsOn": [ { "modid": "walkingsticklite" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/walkingstick:walkingstick-cowskull",
 		"side": "server",
@@ -83,7 +83,7 @@
 		"dependsOn": [ { "modid": "walkingsticklite" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/walkingstick:walkingstick-crude",
 		"side": "server",
@@ -91,7 +91,7 @@
 		"dependsOn": [ { "modid": "walkingsticklite" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/walkingstick:walkingstick*",
 		"side": "server",

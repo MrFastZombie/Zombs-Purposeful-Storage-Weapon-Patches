@@ -24,7 +24,7 @@
 		"dependsOn": [ { "modid": "antlertools" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "move", 
 		"frompath": "/game:spear-generic-*",
         "path": "/temp-spear-mng",
@@ -32,7 +32,7 @@
         "dependsOn": [ { "modid": "antlertools" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/game:spear-generic-antler",
 		"side": "server",
@@ -40,7 +40,7 @@
 		"dependsOn": [ { "modid": "antlertools" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "move", 
 		"frompath": "/temp-spear-mng",
         "path": "/game:spear-generic-*",

@@ -79,7 +79,7 @@
 		"dependsOn": [ { "modid": "combatoverhaul" }]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "move", 
 		"frompath": "/game:spear-generic-*",
         "path": "/temp-spear",
@@ -87,7 +87,7 @@
         "dependsOn": [ { "modid": "combatoverhaul" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/game:spear-generic-chert",
 		"side": "server",
@@ -95,7 +95,7 @@
 		"dependsOn": [ { "modid": "combatoverhaul" } ]
 	},
 	{
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/game:spear-generic-granite",
 		"side": "server",
@@ -103,7 +103,7 @@
 		"dependsOn": [ { "modid": "combatoverhaul" } ]
 	},
 	{
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/game:spear-generic-andesite",
 		"side": "server",
@@ -111,7 +111,7 @@
 		"dependsOn": [ { "modid": "combatoverhaul" } ]
 	},
 	{
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/game:spear-generic-peridotite",
 		"side": "server",
@@ -119,7 +119,7 @@
 		"dependsOn": [ { "modid": "combatoverhaul" } ]
 	},
 	{
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/game:spear-generic-basalt",
 		"side": "server",
@@ -127,7 +127,7 @@
 		"dependsOn": [ { "modid": "combatoverhaul" } ]
 	},
 	{
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/game:spear-generic-flint",
 		"side": "server",
@@ -135,7 +135,7 @@
 		"dependsOn": [ { "modid": "combatoverhaul" } ]
 	},
 	{
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/game:spear-generic-obsidian",
 		"side": "server",
@@ -143,7 +143,7 @@
 		"dependsOn": [ { "modid": "combatoverhaul" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "replace", 
 		"path": "/game:spear-scrap-scrap",
 		"side": "server",
@@ -151,7 +151,7 @@
 		"dependsOn": [ { "modid": "combatoverhaul" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "move", 
 		"frompath": "/temp-spear",
         "path": "/game:spear-generic-*",
@@ -159,7 +159,7 @@
         "dependsOn": [ { "modid": "combatoverhaul" } ]
 	},
 	{
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "replace", 
 		"path": "/game:spear-generic-*",
 		"side": "server",

@@ -56,7 +56,7 @@
 		"dependsOn": [ { "modid": "armory" } ]
 	},
 	{
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge",
 		"path": "/armory:pike-plain-*",
 		"side": "server",

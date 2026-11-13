@@ -1,6 +1,6 @@
 [
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "move", 
 		"frompath": "/game:spear-generic-*",
         "path": "/temp-spear",
@@ -8,7 +8,7 @@
         "dependsOn": [ { "modid": "geoaddons" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/game:spear-generic-diorite",
 		"side": "server",
@@ -16,7 +16,7 @@
 		"dependsOn": [ { "modid": "geoaddons" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/game:spear-generic-gabbro",
 		"side": "server",
@@ -24,7 +24,7 @@
 		"dependsOn": [ { "modid": "geoaddons" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/game:spear-generic-quartzite",
 		"side": "server",
@@ -32,7 +32,7 @@
 		"dependsOn": [ { "modid": "geoaddons" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/game:spear-generic-jade",
 		"side": "server",
@@ -40,7 +40,7 @@
 		"dependsOn": [ { "modid": "geoaddons" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/game:spear-generic-jasper",
 		"side": "server",
@@ -48,7 +48,7 @@
 		"dependsOn": [ { "modid": "geoaddons" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "move", 
 		"frompath": "/temp-spear",
         "path": "/game:spear-generic-*",

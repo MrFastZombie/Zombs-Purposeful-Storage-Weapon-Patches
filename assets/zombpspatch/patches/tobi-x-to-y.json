@@ -32,7 +32,7 @@
 		"dependsOn": [ { "modid": "falxtosword01" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "replace", 
 		"path": "/game:bow-long",
 		"side": "server",

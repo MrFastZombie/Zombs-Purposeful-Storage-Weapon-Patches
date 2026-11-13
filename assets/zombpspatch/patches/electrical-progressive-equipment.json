@@ -32,7 +32,7 @@
 		"dependsOn": [ { "modid": "electricalprogressiveequipment" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/electricalprogressiveequipment:static-spear*",
 		"side": "server",

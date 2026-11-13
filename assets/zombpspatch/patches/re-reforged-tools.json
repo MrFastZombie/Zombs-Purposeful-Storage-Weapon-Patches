@@ -1,6 +1,6 @@
 [
 	{
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "replace", 
 		"path": "/game:spear-generic-*",
 		"side": "server",
@@ -8,7 +8,7 @@
 		"dependsOn": [ { "modid": "rereforgedtools" }, { "modid": "combatoverhaul", "invert": "true" } ]
 	},
 	{
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "replace", 
 		"path": "/game:spear-generic-*",
 		"side": "server",

@@ -24,7 +24,7 @@
 		"dependsOn": [ { "modid": "mannyfergusonrifle" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/mannyfergusonrifle:firearm-ferguson-*",
 		"side": "server",
