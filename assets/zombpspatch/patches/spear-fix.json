@@ -3,63 +3,54 @@
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
 		"op": "move", 
 		"frompath": "/game:spear-generic-*",
-        "path": "/temp-spear",
-		"side": "server"
+        "path": "/temp-spear"
 	},
 	{
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
 		"op": "remove", 
 		"path": "/game:spear-generic-granite",
-		"side": "server",
 		"dependsOn": [ { "modid": "combatoverhaul", "invert": "true" } ]
 	},
 	{
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
 		"op": "remove", 
 		"path": "/game:spear-generic-andesite",
-		"side": "server",
 		"dependsOn": [ { "modid": "combatoverhaul", "invert": "true" } ]
 	},
 	{
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
 		"op": "remove", 
 		"path": "/game:spear-generic-basalt",
-		"side": "server",
 		"dependsOn": [ { "modid": "combatoverhaul", "invert": "true" } ]
 	},
 	{
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
 		"op": "remove", 
 		"path": "/game:spear-generic-obsidian",
-		"side": "server",
 		"dependsOn": [ { "modid": "combatoverhaul", "invert": "true" } ]
 	},
 	{
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
 		"op": "remove", 
 		"path": "/game:spear-generic-peridotite",
-		"side": "server",
 		"dependsOn": [ { "modid": "combatoverhaul", "invert": "true" } ]
 	},
 	{
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
 		"op": "remove", 
 		"path": "/game:spear-generic-flint",
-		"side": "server",
 		"dependsOn": [ { "modid": "combatoverhaul", "invert": "true" } ]
 	},
 	{
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
 		"op": "remove", 
 		"path": "/game:spear-generic-chert",
-		"side": "server",
 		"dependsOn": [ { "modid": "combatoverhaul", "invert": "true" } ]
 	},
 	{
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
 		"op": "addmerge", 
 		"path": "/game:spear-generic-chert",
-		"side": "server",
 		"value": { "origin": { "x": -2, "y": 0, "z": 0.5 }, "scaleXYZ": { "x": 0.85, "y": 0.85, "z": 0.85 } },
 		"dependsOn": [ { "modid": "combatoverhaul", "invert": "true" } ]
 	},
@@ -67,7 +58,6 @@
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
 		"op": "addmerge", 
 		"path": "/game:spear-generic-granite",
-		"side": "server",
 		"value": { "origin": { "x": -2, "y": 0, "z": 0.5 }, "scaleXYZ": { "x": 0.85, "y": 0.85, "z": 0.85 } },
 		"dependsOn": [ { "modid": "combatoverhaul", "invert": "true" } ]
 	},
@@ -75,7 +65,6 @@
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
 		"op": "addmerge", 
 		"path": "/game:spear-generic-andesite",
-		"side": "server",
 		"value": { "origin": { "x": -2, "y": 0, "z": 0.5 }, "scaleXYZ": { "x": 0.85, "y": 0.85, "z": 0.85 } },
 		"dependsOn": [ { "modid": "combatoverhaul", "invert": "true" } ]
 	},
@@ -83,7 +72,6 @@
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
 		"op": "addmerge", 
 		"path": "/game:spear-generic-peridotite",
-		"side": "server",
 		"value": { "origin": { "x": -2, "y": 0, "z": 0.5 }, "scaleXYZ": { "x": 0.85, "y": 0.85, "z": 0.85 } },
 		"dependsOn": [ { "modid": "combatoverhaul", "invert": "true" } ]
 	},
@@ -91,7 +79,6 @@
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
 		"op": "addmerge", 
 		"path": "/game:spear-generic-basalt",
-		"side": "server",
 		"value": { "origin": { "x": -2, "y": 0, "z": 0.5 }, "scaleXYZ": { "x": 0.85, "y": 0.85, "z": 0.85 } },
 		"dependsOn": [ { "modid": "combatoverhaul", "invert": "true" } ]
 	},
@@ -99,7 +86,6 @@
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
 		"op": "addmerge", 
 		"path": "/game:spear-generic-flint",
-		"side": "server",
 		"value": { "origin": { "x": -2, "y": 0, "z": 0.5 }, "scaleXYZ": { "x": 0.85, "y": 0.85, "z": 0.85 } },
 		"dependsOn": [ { "modid": "combatoverhaul", "invert": "true" } ]
 	},
@@ -107,7 +93,6 @@
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
 		"op": "addmerge", 
 		"path": "/game:spear-generic-obsidian",
-		"side": "server",
 		"value": { "origin": { "x": -2, "y": 0, "z": 0.5 }, "scaleXYZ": { "x": 0.85, "y": 0.85, "z": 0.85 } },
 		"dependsOn": [ { "modid": "combatoverhaul", "invert": "true" } ]
 	},
@@ -115,7 +100,6 @@
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
 		"op": "addmerge", 
 		"path": "/game:spear-generic-diorite",
-		"side": "server",
 		"value": { "origin": { "x": -2, "y": 0, "z": 0.5 }, "scaleXYZ": { "x": 0.85, "y": 0.85, "z": 0.85 } },
 		"dependsOn": [ { "modid": "geoaddons" } ]
 	},
@@ -123,7 +107,6 @@
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
 		"op": "addmerge", 
 		"path": "/game:spear-generic-gabbro",
-		"side": "server",
 		"value": { "origin": { "x": -2, "y": 0, "z": 0.5 }, "scaleXYZ": { "x": 0.85, "y": 0.85, "z": 0.85 } },
 		"dependsOn": [ { "modid": "geoaddons" } ]
 	},
@@ -131,7 +114,6 @@
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
 		"op": "addmerge", 
 		"path": "/game:spear-generic-quartzite",
-		"side": "server",
 		"value": { "origin": { "x": -2, "y": 0, "z": 0.5 }, "scaleXYZ": { "x": 0.85, "y": 0.85, "z": 0.85 } },
 		"dependsOn": [ { "modid": "geoaddons" } ]
 	},
@@ -139,7 +121,6 @@
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
 		"op": "addmerge", 
 		"path": "/game:spear-generic-jade",
-		"side": "server",
 		"value": { "origin": { "x": -2, "y": 0, "z": 0.5 }, "scaleXYZ": { "x": 0.85, "y": 0.85, "z": 0.85 } },
 		"dependsOn": [ { "modid": "geoaddons" } ]
 	},
@@ -147,7 +128,6 @@
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
 		"op": "addmerge", 
 		"path": "/game:spear-generic-jasper",
-		"side": "server",
 		"value": { "origin": { "x": -2, "y": 0, "z": 0.5 }, "scaleXYZ": { "x": 0.85, "y": 0.85, "z": 0.85 } },
 		"dependsOn": [ { "modid": "geoaddons" } ]
 	},
@@ -155,7 +135,6 @@
 		"file": "purposefulstorage:config/transformations/weapons/spearrack",
 		"op": "move", 
 		"frompath": "/temp-spear",
-        "path": "/game:spear-generic-*",
-		"side": "server"
+        "path": "/game:spear-generic-*"
 	}
 ]
