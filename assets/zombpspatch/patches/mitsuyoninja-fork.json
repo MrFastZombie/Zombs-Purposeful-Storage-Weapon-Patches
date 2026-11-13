@@ -104,7 +104,7 @@
 		"dependsOn": [ { "modid": "mitsuyoninjafork" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/mitsuyoninja:naginata-*",
 		"side": "server",
@@ -112,7 +112,7 @@
 		"dependsOn": [ { "modid": "mitsuyoninjafork" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/mitsuyoninja:yari-su-*",
 		"side": "server",
@@ -120,7 +120,7 @@
 		"dependsOn": [ { "modid": "mitsuyoninjafork" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/mitsuyoninja:yari-jumonji-*",
 		"side": "server",
@@ -128,7 +128,7 @@
 		"dependsOn": [ { "modid": "mitsuyoninjafork" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/mitsuyoninja:tetsubou-*",
 		"side": "server",
@@ -136,7 +136,7 @@
 		"dependsOn": [ { "modid": "mitsuyoninjafork" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/mitsuyoninja:yari-bishamon-*",
 		"side": "server",

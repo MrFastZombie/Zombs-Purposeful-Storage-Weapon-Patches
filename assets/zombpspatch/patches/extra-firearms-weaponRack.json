@@ -88,7 +88,7 @@
 		"dependsOn": [ { "modid": "mannysquirrelmusket" } ]
 	},
 	{
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/extrafirearms:firearm-musket-*",
 		"side": "server",
@@ -96,7 +96,7 @@
 		"dependsOn": [ { "modid": "mannymaltiezpartialpack" } ]
 	},
 	{
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/extrafirearms:firearm-carbine-*",
 		"side": "server",
@@ -104,7 +104,7 @@
 		"dependsOn": [ { "modid": "mannymaltiezpartialpack" } ]
 	},
 	{
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/mannycaplockfirearms:firearm-musketcaplock*",
 		"side": "server",
@@ -112,7 +112,7 @@
 		"dependsOn": [ { "modid": "mannycaplockfirearms" } ]
 	},
 	{
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/mannycaplockfirearms:firearm-carbinecaplock*",
 		"side": "server",
@@ -120,7 +120,7 @@
 		"dependsOn": [ { "modid": "mannycaplockfirearms" } ]
 	},
 	{
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/extrafirearms:firearm-arquebus-*",
 		"side": "server",
@@ -128,7 +128,7 @@
 		"dependsOn": [ { "modid": "mannymaltiezpartialpack" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/extrafirearms:firearm-jezail-*",
 		"side": "server",
@@ -136,7 +136,7 @@
 		"dependsOn": [ { "modid": "mannyjezail" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/extrafirearms:firearm-hallrifle-*",
 		"side": "server",
@@ -144,7 +144,7 @@
 		"dependsOn": [ { "modid": "mannyhallrifle" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/extrafirearms:firearm-arquebusflintlock-*",
 		"side": "server",
@@ -152,7 +152,7 @@
 		"dependsOn": [ { "modid": "mannyflintlockarquebus" } ]
 	},
 	{
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/extrafirearms:firearm-musketrevolver-*",
 		"side": "server",
@@ -160,7 +160,7 @@
 		"dependsOn": [ { "modid": "mannyrevolvermusket" } ]
 	},
 	{
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/extrafirearms:firearm-tanegashimamusket-*",
 		"side": "server",
@@ -168,7 +168,7 @@
 		"dependsOn": [ { "modid": "mannytanegashimamusket" } ]
 	},
 	{
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/extrafirearms:firearm-squirrelmusket*",
 		"side": "server",

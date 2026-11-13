@@ -10,7 +10,7 @@
             "weaponpacka:trident-*", 
             "weaponpacka:haleberd-*",
             "weaponpacka:bastardsword-*",
-            "weaponpacka:thrustingsword-*-estoc",
+            "weaponpacka:estoc-*-*",
 			"weaponpacka:nagamaki-*",
 			"weaponpacka:heavyspear-*",
 			"weaponpacka:claymore-*",
@@ -21,7 +21,7 @@
 		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/weaponpacka:haleberd-*-regul",
 		"side": "server",
@@ -29,7 +29,7 @@
 		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/weaponpacka:haleberd-*",
 		"side": "server",
@@ -37,7 +37,7 @@
 		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/weaponpacka:bastardsword-*",
 		"side": "server",
@@ -45,15 +45,15 @@
 		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
-		"path": "/weaponpacka:thrustingsword-*-estoc",
+		"path": "/weaponpacka:estoc-*-*",
 		"side": "server",
-		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.7, "y": 0, "z": 0 }, "rotation": { "x": -95, "y": 1, "z": 0 }, "scale": 0.95 },
+		"value": { "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "translation": { "x": 0.7, "y": 0.01, "z": 0 }, "rotation": { "x": -95, "y": 0, "z": 0 }, "scale": 0.95 },
 		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
 	},
 	{
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/weaponpacka:claymore-*",
 		"side": "server",
@@ -61,7 +61,7 @@
 		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
 	},
 	{
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/weaponpacka:zweihander-*",
 		"side": "server",
@@ -69,7 +69,7 @@
 		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
 	},
 	{
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/weaponpacka:flamberge-*",
 		"side": "server",
@@ -77,7 +77,7 @@
 		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
 	},
 	{
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/weaponpacka:nagamaki-*",
 		"side": "server",
@@ -85,7 +85,7 @@
 		"dependsOn": [ { "modid": "weaponpackalphareb" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/weaponpacka:*",
 		"side": "server",

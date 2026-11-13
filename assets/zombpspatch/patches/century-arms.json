@@ -8,7 +8,7 @@
 		"dependsOn": [ { "modid": "centuryarms" } ]
     },
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/centuryarms:firearm-win1910-*",
 		"side": "server",

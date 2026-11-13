@@ -24,7 +24,7 @@
 		"dependsOn": [ { "modid": "katansmod" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/katansmod:katana-normal-*",
 		"side": "server",

@@ -1,6 +1,6 @@
 [
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/game:bow-long",
 		"side": "server",
@@ -8,7 +8,7 @@
 		"dependsOn": [ { "modid": "bullseyecontinued" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/game:bow-recurve",
 		"side": "server",
@@ -16,7 +16,7 @@
 		"dependsOn": [ { "modid": "bullseyecontinued" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/game:bow-long",
 		"side": "server",
@@ -24,7 +24,7 @@
 		"dependsOn": [ { "modid": "maltiezbows" }, { "modid": "bullseyecontinued", "invert": true }, { "modid": "combatoverhaul", "invert": true } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/game:bow-recurve",
 		"side": "server",
@@ -32,7 +32,7 @@
 		"dependsOn": [ { "modid": "maltiezbows" }, { "modid": "bullseyecontinued", "invert": true }, { "modid": "combatoverhaul", "invert": true } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/game:bow-long",
 		"side": "server",
@@ -40,7 +40,7 @@
 		"dependsOn": [ { "modid": "combatoverhaul" }, { "modid": "bullseyecontinued", "invert": true } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/game:bow-recurve",
 		"side": "server",

@@ -32,7 +32,7 @@
 		"dependsOn": [ { "modid": "revolverarquebuswood" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/revolverarquebuswood:firearm-arquebusrevolver*",
 		"side": "server",

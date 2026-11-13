@@ -60,7 +60,7 @@
 		"dependsOn": [ { "modid": "shufflesfrontierfirearms" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/shufflesfrontierfirearms:*repeater*",
 		"side": "server",
@@ -76,7 +76,7 @@
 		"dependsOn": [ { "modid": "shufflesfrontierfirearms" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/shufflesfrontierfirearms:*shotgun*",
 		"side": "server",

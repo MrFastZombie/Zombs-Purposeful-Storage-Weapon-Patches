@@ -48,7 +48,7 @@
 		"dependsOn": [ { "modid": "ancientweaponry" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/ancientweaponry:hasta-*",
 		"side": "server",

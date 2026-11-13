@@ -24,7 +24,7 @@
 		"dependsOn": [ { "modid": "nekporifle" } ]
 	},
     {
-		"file": "purposefulstorage:config/transformations/weapons/longweapons",
+		"file": "purposefulstorage:config/transformations/weapons/weaponrack",
 		"op": "addmerge", 
 		"path": "/nekporifle:firearm-nekpo-*",
 		"side": "server",
